@@ -404,7 +404,7 @@
 			"name": "Opossum",
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 2
+			"bone_cost": 1
 		},
 		{
 			"name": "Ouroboros",
