@@ -1,14 +1,15 @@
 {
 	"ruleset": "Mr.Egg's Goofy",
-	"hammers_per_turn": 1,
+	"hammers_per_turn": 2,
 	"ant_limit": 2,
 	"deck_size_min": 20,
 	"max_commons_main": 3,
-	"max_commons_side": 10,
+	"max_commons_side": 6,
 	"num_candles": 2,
 	"variable_attack_nerf": false,
 	"allow_snuffing_candles": true,
 	"opt_actives": false,
+	"enable_backrow": false,
 	"portrait": "",
 	"description": "Balanced by Mr.Egg and every whim he has",
 	"cards": [
@@ -64,8 +65,8 @@
 			"attack": 0,
 			"health": 2,
 			"sigils": [
-				"Sharp Quills",
-				"Mighty Leap"
+				"Mighty Leap",
+				"Sharp Quills"
 			],
 			"nosac": true,
 			"banned": true
@@ -116,6 +117,17 @@
 			"attack": 1,
 			"health": 3,
 			"blood_cost": 1
+		},
+		{
+			"name": "Burrowing Trap",
+			"sigils": [
+				"Burrower",
+				"Steel Trap"
+			],
+			"attack": 0,
+			"health": 6,
+			"nosac": true,
+			"blood_cost": 2
 		},
 		{
 			"name": "Cat",
@@ -372,7 +384,7 @@
 		{
 			"name": "Moose Buck",
 			"attack": 3,
-			"health": 7,
+			"health": 6,
 			"sigils": [
 				"Hefty"
 			],
@@ -380,10 +392,19 @@
 			"description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
 		},
 		{
+			"name": "Mud Turtle",
+			"sigils": [
+				"Armored"
+			],
+			"attack": 2,
+			"health": 2,
+			"blood_cost": 2
+		},
+		{
 			"name": "Opossum",
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 1
+			"bone_cost": 2
 		},
 		{
 			"name": "Ouroboros",
@@ -497,6 +518,30 @@
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
+			"name": "Strange Frog",
+			"sigils": [
+				"Mighty Leap",
+				"Frozen Away"
+			],
+			"attack": 1,
+			"health": 2,
+			"blood_cost": 1,
+			"evolution": "Leaping Trap",
+			"nosac":true,
+			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+		},
+		{
+			"name": "Leaping Trap",
+			"sigils": [
+				"Mighty Leap",
+				"Steel Trap"
+			],
+			"attack": 0,
+			"health": 1,
+			"nosac": true,
+			"banned": true
+		},
+		{
 			"name": "Strange Larva",
 			"sigils": [
 				"Fledgling"
@@ -573,6 +618,15 @@
 			"banned": true
 		},
 		{
+			"name": "Raccoon",
+			"attack": 1,
+			"health": 2,
+			"sigils": [
+				"Scavenger"
+			],
+			"blood_cost": 1
+		},
+		{
 			"name": "Squirrel",
 			"attack": 0,
 			"health": 2,
@@ -581,14 +635,11 @@
 		{
 			"name": "Squirrel Ball",
 			"sigils": [
-				"Squirrel Shedder",
-				"Frozen Away"
+				"Squirrel Shedder"
 			],
 			"attack": 0,
 			"health": 2,
-			"blood_cost": 1,
-			"rare": true,
-			"evolution": "Squirrel"
+			"blood_cost": 1
 		},
 		{
 			"name": "Stoat",
@@ -636,7 +687,7 @@
 				"Side Hustle"
 			],
 			"attack": 1,
-			"health": 3,
+			"health":3,
 			"blood_cost": 2,
 			"description": "Custom card by FishGuy101.\nCard and sigil art by syntaxevasion"
 		},
@@ -649,7 +700,7 @@
 		},
 		{
 			"name": "Ant Queen",
-			"attack": 1,
+			"attack": 0,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 2,
@@ -669,7 +720,7 @@
 		},
 		{
 			"name": "Bullet Ant",
-			"attack": 1,
+			"attack": 0,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 3,
@@ -701,8 +752,17 @@
 			"name": "Automaton",
 			"attack": 1,
 			"health": 1,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"description": "Note: The energy cost of this card was reduced to make it less terrible."
+		},
+		{
+			"name": "Alarmbot",
+			"sigils": [
+				"Annoying"
+			],
+			"attack": 2,
+			"health": 1,
+			"energy_cost": 2
 		},
 		{
 			"name": "Energy Bot",
@@ -721,7 +781,7 @@
 			"attack": 2,
 			"health": 4,
 			"energy_cost": 5,
-			"description": "Note: Health was increased to 4 to make it equivalent to other \"Hound\" cards."
+			"description": "Note: Health was increased to 3 to make it equivalent to other \"Hound\" cards."
 		},
 		{
 			"name": "Buff Conduit",
@@ -760,7 +820,6 @@
 			"health": 3,
 			"energy_cost": 3,
 			"conduit": true,
-			"rare": true,
 			"description": "Note: Effect was changed to prevent infinitely buffing stim mage."
 		},
 		{
@@ -821,7 +880,7 @@
 				"Airborne"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"energy_cost": 3
 		},
 		{
@@ -876,10 +935,14 @@
 		},
 		{
 			"name": "Null Conduit",
+			"sigils":[
+				"Fecundity (Kaycee)"
+			],
 			"attack": 0,
 			"health": 2,
 			"energy_cost": 1,
-			"conduit": true
+			"conduit": true,
+			"nosac":true
 		},
 		{
 			"name": "Plasma Jimmy",
@@ -888,9 +951,9 @@
 			],
 			"attack": 0,
 			"health": 3,
+			"energy_cost": 1,
 			"rare": true,
-			"active": true,
-			"energy_cost": 1
+			"active": true
 		},
 		{
 			"name": "Rustbucket",
@@ -909,9 +972,9 @@
 				"Sharp Quills"
 			],
 			"attack": 1,
-			"health": 4,
+			"health": 3,
 			"description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-			"energy_cost": 4
+			"energy_cost": 3
 		},
 		{
 			"name": "Steel Mice",
@@ -930,7 +993,6 @@
 			],
 			"attack": 0,
 			"health": 2,
-			
 			"description": "Note: The sentry sigil now triggers when this card is pushed by another card."
 		},
 		{
@@ -950,8 +1012,8 @@
 				"Transformer"
 			],
 			"attack": 2,
-			"health": 3,
-			"energy_cost": 5,
+			"health": 2,
+			"energy_cost": 4,
 			"evolution": "QU177 (beast)"
 		},
 		{
@@ -961,10 +1023,10 @@
 				"Sharp Quills"
 			],
 			"attack": 1,
-			"health": 3,
-			"energy_cost": 5,
-			"banned": true,
-			"evolution": "QU177"
+			"health": 2,
+			"energy_cost": 4,
+			"evolution": "QU177",
+			"banned": true
 		},
 		{
 			"name": "SON1A",
@@ -985,8 +1047,8 @@
 			"attack": 2,
 			"health": 2,
 			"energy_cost": 3,
-			"banned": true,
-			"evolution": "SON1A"
+			"evolution": "SON1A",
+			"banned": true
 		},
 		{
 			"name": "Mrs. Bomb",
@@ -1079,11 +1141,12 @@
 		{
 			"name": "Draugr",
 			"sigils": [
-				"Frozen Away"
+				"Frozen Away",
+				"Sharp Quills"
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": -1,
+			"bone_cost": 1,
 			"nosac": true,
 			"evolution": "Skeleton"
 		},
@@ -1203,7 +1266,7 @@
 				"Skeleton Crew (Yarr)"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 1,
 			"bone_cost": 5
 		},
 		{
@@ -1212,7 +1275,7 @@
 				"Bone Digger"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 4,
 			"bone_cost": 1
 		},
 		{
@@ -1292,7 +1355,7 @@
 			"attack": 4,
 			"health": 1,
 			"energy_cost": 4,
-			"description": "Note: Was given energy cost due to being too spammable and easy to draw into with Blue Mage."
+			"description": "A plague is once again released upon this earth."
 		},
 		{
 			"name": "Tomb Robber",
@@ -1301,10 +1364,10 @@
 			],
 			"attack": 0,
 			"health": 2,
+			"bone_cost":1,
 			"rare": true,
 			"active": true,
-			"description": "Note: Withered corpses have the Boneless sigil and will not drop bones.This change was made to prevent multiple infinite combos involving Tomb Robber.",
-			"bone_cost": 1
+			"description": "Note: Withered corpses have the Boneless sigil and will not drop bones.This change was made to prevent multiple infinite combos involving Tomb Robber."
 		},
 		{
 			"name": "Zombie",
@@ -1504,7 +1567,7 @@
 				"Orange"
 			],
 			"rare": true,
-			"description": "Note: This card was given Bifurcated Strike due to being considerably weaker than the other masters, and to give it the ability to defend adjacent gems (potentially). Suggested by FishGuy101."
+			"description": "He got buffed a while back. Thanks FishGuy101!"
 		},
 		{
 			"name": "Master Orlu",
@@ -1695,10 +1758,10 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"description": "Custom Card by BishopAdams",
 			"mox_cost": [
 				"Green"
-			]
+			],
+			"description": "Custom Card by BishopAdams"
 		},
 		{
 			"name": "Thief Mage",
@@ -1708,8 +1771,8 @@
 				"Side Hustle"
 			],
 			"mox_cost": [
-				"Orange",
-				"Blue"
+				"Blue",
+				"Orange"
 			],
 			"description": "Custom card by FishGuy101\nServed his sentence"
 		},
@@ -1787,7 +1850,7 @@
 			],
 			"attack": 2,
 			"health": 2,
-			"description": "Custom card by ener"
+			"description": "How hungry?\n\nCustom card by ener"
 		},
 		{
 			"name": "Winged Guardian",
@@ -1842,6 +1905,17 @@
 			"description": "Custom card by SYNTHIA_2000"
 		},
 		{
+			"name": "N.YLKB",
+			"blood_cost": 1,
+			"sigils": [
+				"Scopophobic"
+			],
+			"attack": 1,
+			"health": 1,
+			"gamma": "CFKA QEB EBXOQ.",
+			"description": "Hljkw-Hljkw-Wzr::Ghvfulswlrq::Qlqhwhhq"
+		},
+		{
 			"name": "Withered Corpse",
 			"sigils": [
 				"Brittle",
@@ -1866,7 +1940,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"nosac": true,
 			"banned": true
 		},
@@ -1939,6 +2013,7 @@
 				"Reconstitute"
 			],
 			"banned": true,
+			"rare":true,
 			"description": "Card art by Sebas534.\nThe most broken card, hopefully no longer."
 		},
 		{
@@ -1947,7 +2022,8 @@
 			"health": 1,
 			"bone_cost": -1,
 			"sigils": [
-				"Sprinter"
+				"Sprinter",
+				"Bone Digger"
 			],
 			"nosac": true,
 			"banned": true,
@@ -1961,13 +2037,16 @@
 			],
 			"attack": 0,
 			"health": 5,
-			"energy_cost": 6,
+			"energy_cost": 5,
 			"nosac": false,
 			"description": "Emits a pale white light. You feel as though it calls to its brethren.",
 			"banned": true
 		},
 		{
 			"name": "The Moon",
+			"sigils": [
+				"Made of Stone"
+			],
 			"attack": 1,
 			"health": 40,
 			"banned": true
@@ -2146,77 +2225,48 @@
 		"Thick"
 	],
 	"side_decks": {
-		"10 Squirrels": {
-			"type": "single",
-			"card": "Squirrel",
-			"count": 10
-		},
-		"10 Skeletons": {
-			"type": "single",
-			"card": "Skeleton",
-			"count": 10
-		},
-		"Vessels": {
-			"type": "single_cat",
-			"cards": {
-				"10 Empty": {
-					"card": "Empty Vessel",
-					"count": 10
-				},
-				"10 Leaping": {
-					"card": "Leaping Vessel",
-					"count": 10
-				},
-				"10 Energized": {
-					"card": "Energized Vessel",
-					"count": 10
-				},
-				"10 Bloody": {
-					"card": "Bloody Vessel",
-					"count": 10
-				},
-				"10 Splintered": {
-					"card": "Splintered Vessel",
-					"count": 10
-				},
-				"10 Conductive": {
-					"card": "Conductive Vessel",
-					"count": 10
-				},
-				"10 Contaminated": {
-					"card": "Contaminated Vessel",
-					"count": 10
-				}
-			}
-		},
-		"Mox (draft)": {
+		"Draft": {
 			"type": "draft",
-			"cards": [
+			"cards":[
+				"Squirrel",
+				"Geck",
+				"Skeleton",
+				"Empty Vessel",
+				"Energized Vessel",
+				"Bloody Vessel",
+				"Contaminated Vessel",
+				"Leaping Vessel",
+				"Conductive Vessel",
+				"Splintered Vessel",
 				"Ruby Mox",
 				"Emerald Mox",
-				"Sapphire Mox"
+				"Sapphire Mox",
+				"Shambling Cairn",
+				"Moon Shard"
 			],
-			"count": 10
+			"count": 12
 		},
-		"5 Gecks": {
-			"type": "single",
-			"card": "Geck",
-			"count": 5
-		},
-		"The Acid Squirrel": {
-			"type": "single",
-			"card": "Acid Squirrel",
-			"count": 1
-		},
-		"10 Shambling Cairns": {
-			"type": "single",
-			"card": "Shambling Cairn",
-			"count": 10
-		},
-		"10 Moon Shards": {
-			"type": "single",
-			"card": "Moon Shard",
-			"count": 10
+		"Acid Squirrel Draft":{
+			"type": "draft",
+			"cards": [
+				"Squirrel",
+				"Geck",
+				"Skeleton",
+				"Empty Vessel",
+				"Energized Vessel",
+				"Bloody Vessel",
+				"Contaminated Vessel",
+				"Leaping Vessel",
+				"Conductive Vessel",
+				"Splintered Vessel",
+				"Ruby Mox",
+				"Emerald Mox",
+				"Sapphire Mox",
+				"Shambling Cairn",
+				"Moon Shard",
+				"Acid Squirrel"
+			],
+			"count":3
 		}
 	}
 }
