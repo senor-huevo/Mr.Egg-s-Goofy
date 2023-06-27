@@ -43,6 +43,16 @@
 			"blood_cost": 1
 		},
 		{
+			"name": "Amalgam",
+			"sigils": [
+				"Amalgamation"
+			],
+			"attack": 0,
+			"health": 1,
+			"blood_cost":2,
+			"rare": true
+		},
+		{
 			"name": "Bat",
 			"sigils": [
 				"Airborne"
@@ -57,7 +67,7 @@
 				"Dam Builder"
 			],
 			"attack": 1,
-			"health": 4,
+			"health": 5,
 			"blood_cost": 2
 		},
 		{
@@ -87,8 +97,7 @@
 				"Mighty Leap"
 			],
 			"attack": 0,
-			"health": 3,
-			"blood_cost": 1
+			"health": 2
 		},
 		{
 			"name": "Black Goat",
@@ -1903,17 +1912,6 @@
 				"Sprinter"
 			],
 			"description": "Custom card by SYNTHIA_2000"
-		},
-		{
-			"name": "N.YLKB",
-			"blood_cost": 1,
-			"sigils": [
-				"Scopophobic"
-			],
-			"attack": 1,
-			"health": 1,
-			"gamma": "CFKA QEB EBXOQ.",
-			"description": "Hljkw-Hljkw-Wzr::Ghvfulswlrq::Qlqhwhhq"
 		},
 		{
 			"name": "Withered Corpse",
