@@ -67,7 +67,7 @@
 				"Dam Builder"
 			],
 			"attack": 1,
-			"health": 5,
+			"health": 4,
 			"blood_cost": 2
 		},
 		{
@@ -261,7 +261,7 @@
 				"Airborne"
 			],
 			"attack": 3,
-			"health": 2,
+			"health": 1,
 			"blood_cost": 2
 		},
 		{
@@ -487,7 +487,7 @@
 			"name": "Rattler",
 			"attack": 3,
 			"health": 1,
-			"bone_cost": 4,
+			"bone_cost": 5,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -588,11 +588,11 @@
 		{
 			"name": "Turkey Vulture",
 			"attack": 3,
-			"health": 3,
+			"health": 2,
 			"sigils": [
 				"Airborne"
 			],
-			"bone_cost": 6,
+			"bone_cost": 7,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -702,7 +702,7 @@
 		},
 		{
 			"name": "Worker Ant",
-			"attack": 0,
+			"attack": -1,
 			"health": 2,
 			"atkspecial": "ant",
 			"blood_cost": 1
@@ -719,7 +719,7 @@
 		},
 		{
 			"name": "Flying Ant",
-			"attack": 0,
+			"attack": -1,
 			"health": 1,
 			"atkspecial": "ant",
 			"blood_cost": 1,
@@ -1002,6 +1002,7 @@
 			],
 			"attack": 0,
 			"health": 2,
+			"energy_cost":1,
 			"description": "Note: The sentry sigil now triggers when this card is pushed by another card."
 		},
 		{
@@ -1067,6 +1068,7 @@
 			"attack": 1,
 			"health": 2,
 			"energy_cost": 3,
+			"nosac":true,
 			"rare": true
 		},
 		{
@@ -1312,8 +1314,8 @@
 		{
 			"name": "Mummy Lord",
 			"attack": 3,
-			"health": 3,
-			"bone_cost": 6
+			"health": 2,
+			"bone_cost": 7
 		},
 		{
 			"name": "Necromancer",
@@ -1332,9 +1334,9 @@
 				"Brittle",
 				"Touch of Death"
 			],
-			"attack": 3,
+			"attack": 2,
 			"health": 1,
-			"bone_cost": 3
+			"bone_cost": 2
 		},
 		{
 			"name": "Sarcophagus",
@@ -1373,7 +1375,6 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"bone_cost":1,
 			"rare": true,
 			"active": true,
 			"description": "Note: Withered corpses have the Boneless sigil and will not drop bones.This change was made to prevent multiple infinite combos involving Tomb Robber."
