@@ -1424,9 +1424,9 @@
 		},
 		{
 			"name": "Zombie Parrot",
-			"attack": 3,
+			"attack": 2,
 			"health": 1,
-			"bone_cost": 4,
+			"bone_cost": 2,
 			"sigils": [
 				"Brittle",
 				"Airborne"
