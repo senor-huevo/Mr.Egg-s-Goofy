@@ -551,6 +551,37 @@
 			"banned": true
 		},
 		{
+			"name": "Rabbit Pelt",
+			"attack": 0,
+			"health": 1,
+			"nosac": true
+		},
+		{
+			"name": "Wolf Pelt",
+			"attack": 0,
+			"health": 2,
+			"nosac": true
+		},
+		{
+			"name": "Golden Pelt",
+			"attack": 0,
+			"health": 3,
+			"nosac": true,
+			"rare": true
+		},
+		{
+			"name": "Pelt Lice",
+			"attack": 1,
+			"health": 1,
+			"blood_cost": 4,
+			"sigils": [
+				"Double Strike",
+				"Corpse Eater"
+			],
+			"rare":true,
+			"description":"Pelts do not spawn in Pelt Lice"
+		},
+		{
 			"name": "Strange Larva",
 			"sigils": [
 				"Fledgling"
@@ -936,7 +967,7 @@
 				"Depleting",
 				"Omni Strike"
 			],
-			"attack": 2,
+			"attack": 1,
 			"health": 2,
 			"rare": true,
 			"description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
