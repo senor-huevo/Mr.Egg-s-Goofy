@@ -34,6 +34,104 @@
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
+			"name": "James Cobb",
+			"attack": 0,
+			"health": 3,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_corncobb.png",
+			"description":"Card art by syntaxevasion",
+			"rare":true
+		},
+		{
+			"name": "David",
+			"attack": 2,
+			"health": 2,
+			"blood_cost": 2,
+			"sigils":[
+				"Hefty",
+				"Sharp Quills"
+			],
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_david.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Berke",
+			"attack":2,
+			"health":1,
+			"blood_cost": 1,
+			"bone_cost": 1,
+			"sigils":[
+				"Frozen Away",
+				"Guardian"
+			],
+			"evolution":"Opossum",
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_berke.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Sean",
+			"attack": 1,
+			"health":6,
+			"blood_cost":2,
+			"rare":true,
+			"sigils":[
+				"Mighty Leap",
+				"Touch of Death"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_sean.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name":"Daniel",
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Double Strike"
+			],
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_daniel.png",
+			"blood_cost": 1,
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name":"Jonah",
+			"attack": 2,
+			"health": 5,
+			"blood_cost": 3,
+			"sigils":[
+				"Bees Within",
+				"Sharp Quills"
+			],
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_jonah.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name":"Tahnee",
+			"attack": 0,
+			"health":1,
+			"sigils":[
+				"Trifurcated Strike"
+			],
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_david.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name":"Kaycee",
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Bifurcated Strike",
+				"Sharp Quills"
+			],
+			"blood_cost":1,
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_kaycee.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Kaminski",
 			"sigils": [
 				"Burrower",
@@ -107,7 +205,8 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"blood_cost":2,
+			"blood_cost":1,
+			"bone_cost":3,
 			"rare": true
 		},
 		{
@@ -345,6 +444,19 @@
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_hodag.png"
 	    },
 		{
+			"name":"Pack Mule",
+			"attack": 0,
+			"health": 5,
+			"blood_cost":1,
+			"sigils":[
+				"Sprinter",
+				"Vessel Printer"
+			],
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_mule.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Hrokkall",
 			"sigils": [
 				"Waterborne",
@@ -569,6 +681,22 @@
 				"Waterborne"
 			],
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+		},
+		{
+			"name":"Bait Bucket",
+			"attack":0,
+			"health":1,
+			"blood_cost":1,
+			"sigils":[
+				"Frozen Away"
+			],
+			"evolution":"Great White",
+			"nosac":true,
+			"nohammer":true,
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_baitbucket.png",
+			"description":"Card art by syntaxevasion"
+
 		},
 		{
 			"name": "Grizzly",
@@ -967,6 +1095,18 @@
 			"description": "Note: The energy cost of this card was reduced to make it less terrible."
 		},
 		{
+			"name":"Annoy FM",
+			"attack": 0,
+			"health": 3,
+			"sigils":[
+				"Annoying",
+				"Leader"
+			],
+			"energy_cost":5,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_annoyfm.png",
+			"description": "Card art by syntaxevasion"
+		},
+		{
 			"name": "Alarmbot",
 			"sigils": [
 				"Annoying"
@@ -1065,6 +1205,29 @@
 			"description": "Note: The cost of this ability was increased to 2 energy due to this card being very strong for its cost."
 		},
 		{
+			"name": "Gembound Ripper",
+			"attack": 3,
+			"health":1,
+			"sigils":[
+				"Gem Dependant"
+			],
+			"energy_cost":4,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_gemripper.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Gems Conduit",
+			"sigils":[
+				"Great Mox"
+			],
+			"attack": 0,
+			"health": 2,
+			"energy_cost": 2,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_conduitgems.png",
+			"conduit":true,
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "GR1ZZ",
 			"sigils": [
 				"Transformer"
@@ -1124,6 +1287,19 @@
 			"health": 1,
 			"energy_cost": 2
 		},
+		{
+			"name": "Mycobot",
+			"attack": 0,
+			"health":1,
+			"sigils":[
+				"Amalgamation",
+				"Depleting"
+			],
+			"rare":true,
+			"energy_cost":6,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_mycobot.png",
+			"description":"Card art by syntaxevasion"
+	    },
 		{
 			"name": "49er",
 			"sigils": [
