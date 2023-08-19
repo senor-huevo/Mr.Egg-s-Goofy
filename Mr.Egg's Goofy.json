@@ -1,10 +1,10 @@
 {
 	"ruleset": "Mr.Egg's Goofy",
-	"hammers_per_turn": 2,
+	"hammers_per_turn": 1,
 	"ant_limit": 2,
 	"deck_size_min": 20,
 	"max_commons_main": 3,
-	"max_commons_side": 6,
+	"max_commons_side": 5,
 	"num_candles": 2,
 	"variable_attack_nerf": false,
 	"allow_snuffing_candles": true,
@@ -32,6 +32,64 @@
 			"banned": true,
 			"rare": true,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
+		},
+		{
+			"name": "Kaminski",
+			"sigils": [
+				"Burrower",
+				"Sharp Quills"
+			],
+			"attack": 1,
+			"health": 1,
+			"bone_cost": 2,
+			"rare": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_kaminski.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Louis",
+			"sigils": [
+				"Waterborne",
+				"Sprinter"
+			],
+			"attack": 1,
+			"health": 1,
+			"rare": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_louis.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Reginald",
+			"sigils": [
+				"Touch of Death"
+			],
+			"attack": 1,
+			"health": 3,
+			"bone_cost": 3,
+			"rare": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_reginald.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Stink Bug",
+			"sigils": [
+				"Stinky"
+			],
+			"attack": 1,
+			"health": 2,
+			"bone_cost": 3,
+			"rare": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_talkstinkbug.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Stunted Wolf",
+			"attack": 2,
+			"health": 2,
+			"blood_cost": 1,
+			"rare": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_talkstunt.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Adder",
@@ -128,15 +186,27 @@
 			"blood_cost": 1
 		},
 		{
+			"name": "Tadpole",
+			"sigils": [
+				"Waterborne",
+				"Fledgling"
+			],
+			"attack": 0,
+			"health": 1,
+			"evolution": "Bullfrog",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_tadpole.png"
+		},
+		{
 			"name": "Burrowing Trap",
 			"sigils": [
 				"Burrower",
 				"Steel Trap"
 			],
 			"attack": 0,
-			"health": 6,
+			"health": 4,
 			"nosac": true,
-			"blood_cost": 2
+			"blood_cost": 1,
+			"rare":true
 		},
 		{
 			"name": "Cat",
@@ -146,7 +216,6 @@
 			"attack": 0,
 			"health": 1,
 			"blood_cost": 1,
-			"rare": true,
 			"description": "Note: This card was changed to rare due to the amount of advantage given by this card."
 		},
 		{
@@ -198,18 +267,19 @@
 		{
 			"name": "Dire Wolf Pup",
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"sigils": [
 				"Bone Digger",
 				"Fledgling"
 			],
-			"blood_cost": 2,
+			"blood_cost": 1,
+			"rare":true,
 			"evolution": "Dire Wolf"
 		},
 		{
 			"name": "Dire Wolf",
 			"attack": 2,
-			"health": 3,
+			"health": 5,
 			"sigils": [
 				"Double Strike"
 			],
@@ -264,6 +334,16 @@
 			"health": 1,
 			"blood_cost": 2
 		},
+		{			"name": "Hodag",
+		"sigils": [
+			"Blood Lust"
+		],
+		"attack": 1,
+		"health": 5,
+		"blood_cost": 2,
+		"rare": true,
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_hodag.png"
+	    },
 		{
 			"name": "Hrokkall",
 			"sigils": [
@@ -272,7 +352,8 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"blood_cost": 1
+			"blood_cost": 1,
+			"conduit":true
 		},
 		{
 			"name": "Rat King",
@@ -292,6 +373,26 @@
 			"health": 3,
 			"evolution": "Raven",
 			"blood_cost": 1
+		},
+		{
+			"name": "River Otter",
+			"sigils": [
+				"Waterborne",
+				"Stinky"
+			],
+			"attack": 1,
+			"health": 1,
+			"blood_cost": 1,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_otter.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Ring Worm",
+			"attack": 0,
+			"health": 1,
+			"blood_cost": 1,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_ringworm.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Kingfisher",
@@ -322,8 +423,7 @@
 				"Touch of Death"
 			],
 			"sheds": "Vertebrae",
-			"bone_cost": 4,
-			"rare": true
+			"bone_cost": 4
 		},
 		{
 			"name": "Vertebrae",
@@ -338,7 +438,7 @@
 			"sigils": [
 				"Leader"
 			],
-			"bone_cost": 4
+			"bone_cost": 5
 		},
 		{
 			"name": "Magpie",
@@ -387,13 +487,12 @@
 			],
 			"attack": 0,
 			"health": 6,
-			"blood_cost": 1,
 			"rare": true
 		},
 		{
 			"name": "Moose Buck",
 			"attack": 3,
-			"health": 6,
+			"health": 7,
 			"sigils": [
 				"Hefty"
 			],
@@ -415,15 +514,29 @@
 			"health": 1,
 			"bone_cost": 1
 		},
+		{			"name": "Frozen Opossum",
+		"sigils": [
+			"Frozen Away",
+			"Sharp Quills"
+		],
+		"attack": 0,
+		"health": 1,
+		"bone_cost": 2,
+		"nosac": true,
+		"evolution": "Opossum",
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_frozenopossum.png",
+		"description":"Card art by syntaxevasion"
+	    },
 		{
 			"name": "Ouroboros",
 			"sigils": [
-				"Reconstitute"
+				"Unkillable"
 			],
 			"attack": 1,
 			"health": 1,
 			"blood_cost": 2,
 			"rare": true,
+			"nosac":true,
 			"description": "This card gains 1 power and 1 health each time it perishes."
 		},
 		{
@@ -436,7 +549,8 @@
 			"attack": 0,
 			"health": 3,
 			"sigils": [
-				"Stinky"
+				"Stinky",
+				"Guardian"
 			],
 			"description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
 		},
@@ -459,9 +573,21 @@
 		{
 			"name": "Grizzly",
 			"attack": 4,
-			"health": 4,
+			"health": 6,
 			"blood_cost": 3
 		},
+		{	"name": "Grizzly Cub",
+		"attack": 2,
+		"health": 1,
+		"blood_cost": 1,
+		"sigils": [
+			"Fledgling"
+		],
+		"evolution": "Grizzly",
+		"rare": true,
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_grizzlycub.png",
+		"description":"Card art by syntaxevasion"
+	    },
 		{
 			"name": "Porcupine",
 			"attack": 1,
@@ -673,6 +799,17 @@
 			"banned": true
 		},
 		{
+			"name": "Aquasquirrel",
+			"sigils": [
+				"Waterborne"
+			],
+			"attack": 0,
+			"health": 1,
+			"banned": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_aquasquirrel.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Squirrel Ball",
 			"sigils": [
 				"Squirrel Shedder"
@@ -691,7 +828,7 @@
 		{
 			"name": "Urayuli",
 			"attack": 7,
-			"health": 3,
+			"health": 7,
 			"blood_cost": 4,
 			"rare": true
 		},
@@ -704,6 +841,20 @@
 			"health": 2,
 			"blood_cost": 1
 		},
+		{			"name": "Caged Wolf",
+		"sigils": [
+			"Frozen Away"
+		],
+		"attack": 0,
+		"health": 5,
+		"blood_cost": 1,
+		"nosac": true,
+		"nohammer": true,
+		"rare": true,
+		"evolution": "Wolf",
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_cagedwolf.png",
+		"description":"Card art by syntaxevasion"
+	    },
 		{
 			"name": "Wolf",
 			"attack": 3,
@@ -720,6 +871,15 @@
 			"blood_cost": 1,
 			"evolution": "Wolf"
 		},
+		{"name": "Wolverine",
+		"sigils": [
+			"Blood Lust"
+		],
+		"attack": 1,
+		"health": 3,
+		"bone_cost": 4,
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_wolverine.png"
+	    },
 		{
 			"name": "Fox",
 			"sigils": [
@@ -732,6 +892,17 @@
 			"description": "Custom card by FishGuy101.\nCard and sigil art by syntaxevasion"
 		},
 		{
+			"name": "Anthill",
+			"sigils": [
+				"Ant Spawner"
+			],
+			"attack": 0,
+			"health": 2,
+			"blood_cost": 1,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_anthill.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Worker Ant",
 			"attack": -1,
 			"health": 2,
@@ -740,7 +911,7 @@
 		},
 		{
 			"name": "Ant Queen",
-			"attack": 0,
+			"attack": -1,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 2,
@@ -760,7 +931,7 @@
 		},
 		{
 			"name": "Bullet Ant",
-			"attack": 0,
+			"attack": -1,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 3,
@@ -810,8 +981,7 @@
 				"Battery Bearer"
 			],
 			"attack": 0,
-			"health": 1,
-			"energy_cost": 1
+			"health": 1
 		},
 		{
 			"name": "Bolthound",
@@ -878,8 +1048,8 @@
 				"Spawn Conduit"
 			],
 			"attack": 0,
-			"health": 3,
-			"energy_cost": 3,
+			"health": 2,
+			"energy_cost": 2,
 			"conduit": true
 		},
 		{
@@ -891,6 +1061,7 @@
 			"health": 1,
 			"energy_cost": 4,
 			"active": true,
+			"rare":true,
 			"description": "Note: The cost of this ability was increased to 2 energy due to this card being very strong for its cost."
 		},
 		{
@@ -917,10 +1088,11 @@
 		{
 			"name": "Insectodrone",
 			"sigils": [
-				"Airborne"
+				"Airborne",
+				"Fecundity (Kaycee)"
 			],
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"energy_cost": 3
 		},
 		{
@@ -1047,6 +1219,16 @@
 			"energy_cost": 1,
 			"banned": true
 		},
+		{	"name": "Shieldbot",
+		"sigils": [
+			"Armored"
+		],
+		"attack": 1,
+		"health": 1,
+		"energy_cost": 3,
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_shieldbot.png",
+		"description":"Card art by syntaxevasion"
+	    },
 		{
 			"name": "QU177",
 			"sigils": [
@@ -1136,7 +1318,8 @@
 			"attack": 0,
 			"health": 3,
 			"energy_cost": 3,
-			"rare": true
+			"rare": true,
+			"banned":true
 		},
 		{
 			"name": "Mirror Bot",
@@ -1188,7 +1371,6 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": 1,
 			"nosac": true,
 			"evolution": "Skeleton"
 		},
@@ -1238,7 +1420,7 @@
 				"Sharp Quills"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"bone_cost": 2
 		},
 		{
@@ -1269,7 +1451,7 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": 5,
+			"bone_cost": 4,
 			"rare": true,
 			"description": "Note: This card was made rare due to it's strength. This card will become a cat after its worthy sacrifice sigil is used.",
 			"evolution": "Cat"
@@ -1338,14 +1520,14 @@
 				"Sprinter"
 			],
 			"attack": 5,
-			"health": 3,
-			"bone_cost": 10,
+			"health": 5,
+			"bone_cost": 12,
 			"rare": true
 		},
 		{
 			"name": "Mummy Lord",
 			"attack": 3,
-			"health": 2,
+			"health": 3,
 			"bone_cost": 7
 		},
 		{
@@ -1389,6 +1571,18 @@
 			"banned": true
 		},
 		{
+			"name": "Exeskeleton",
+			"sigils": [
+				"Brittle"
+			],
+			"attack": 1,
+			"health": 1,
+			"energy_cost": 1,
+			"banned": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_roboskeleton.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Skelemagus",
 			"sigils": [
 				"Brittle",
@@ -1396,8 +1590,21 @@
 			],
 			"attack": 4,
 			"health": 1,
-			"energy_cost": 4,
+			"bone_cost": 4,
 			"description": "A plague is once again released upon this earth."
+		},
+		{
+			"name": "Tombstone",
+			"sigils": [
+				"Repulsive"
+			],
+			"attack": 0,
+			"health": 5,
+			"bone_cost": 3,
+			"rare": true,
+			"nosac": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_tombstonebot.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Tomb Robber",
@@ -1456,7 +1663,7 @@
 		{
 			"name": "Zombie Parrot",
 			"attack": 2,
-			"health": 1,
+			"health": 2,
 			"bone_cost": 2,
 			"sigils": [
 				"Brittle",
@@ -1514,7 +1721,8 @@
 		{
 			"name": "Force Mage",
 			"sigils": [
-				"Repulsive"
+				"Repulsive",
+				"Mighty Leap"
 			],
 			"attack": 0,
 			"health": 1,
@@ -1634,7 +1842,8 @@
 			"attack": 0,
 			"health": 2,
 			"rare": true,
-			"nosac": true
+			"nosac": true,
+			"banned":true
 		},
 		{
 			"name": "Goranj's Mox",
@@ -1645,7 +1854,8 @@
 			"attack": 0,
 			"health": 2,
 			"rare": true,
-			"nosac": true
+			"nosac": true,
+			"banned":true
 		},
 		{
 			"name": "Orlu's Mox",
@@ -1656,7 +1866,8 @@
 			"attack": 0,
 			"health": 2,
 			"rare": true,
-			"nosac": true
+			"nosac": true,
+			"banned":true
 		},
 		{
 			"name": "Emerald Mox",
@@ -1694,7 +1905,7 @@
 				"Great Mox"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"nosac": true,
 			"banned": true,
 			"rare": true
@@ -1756,7 +1967,7 @@
 		{
 			"name": "Stim Mage",
 			"sigils": [
-				"Stimulate (4)"
+				"Stimulate"
 			],
 			"attack": 0,
 			"health": 2,
@@ -1807,13 +2018,12 @@
 		{
 			"name": "Thief Mage",
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"sigils": [
 				"Side Hustle"
 			],
 			"mox_cost": [
-				"Blue",
-				"Orange"
+				"Blue"
 			],
 			"description": "Custom card by FishGuy101\nServed his sentence"
 		},
@@ -1963,6 +2173,69 @@
 			"nosac": true,
 			"banned": true
 		},
+		{	"name": "Armored Vessel",
+		"attack": 0,
+		"health": 2,
+		"energy_cost": 1,
+		"nosac": true,
+		"banned": true,
+		"sigils": [
+			"Armored"
+		],
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_vesselfortified.png",
+		"description":"Card art by syntaxevasion"
+	    },
+		{	"name": "Sentry Vessel",
+		"attack": 0,
+		"health": 2,
+		"energy_cost": 1,
+		"nosac": true,
+		"banned": true,
+		"sigils": [
+			"Sentry"
+		],
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_vesselsentry.png",
+		"description":"Card art by syntaxevasion"
+	    },
+		{
+			"name": "Ruby Vessel",
+			"attack": 0,
+			"health": 1,
+			"energy_cost": 1,
+			"nosac": true,
+			"banned": true,
+			"sigils": [
+				"Orange Mox"
+			],
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_emptyvessel_orange.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Sapphire Vessel",
+			"attack": 0,
+			"health": 1,
+			"energy_cost": 1,
+			"nosac": true,
+			"banned": true,
+			"sigils": [
+				"Blue Mox"
+			],
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_emptyvessel_blue.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Emerald Vessel",
+			"attack": 0,
+			"health": 1,
+			"energy_cost": 1,
+			"nosac": true,
+			"banned": true,
+			"sigils": [
+				"Green Mox"
+			],
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_emptyvessel_green.png",
+			"description":"Card art by syntaxevasion"
+		},
 		{
 			"name": "Leaping Vessel",
 			"sigils": [
@@ -1981,7 +2254,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"nosac": true,
 			"banned": true
 		},
@@ -2003,7 +2276,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"nosac": true,
 			"banned": true
 		},
@@ -2023,9 +2296,54 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"nosac": true,
 			"banned": true
+		},
+		{
+			"name": "Orlu's Vessel",
+			"sigils": [
+				"Blue Mox",
+				"Orange Mox"
+			],
+			"attack": 0,
+			"health": 2,
+			"energy_cost": 2,
+			"nosac": true,
+			"rare": true,
+			"banned": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_sentinel_green.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Bleene's Vessel",
+			"sigils": [
+				"Green Mox",
+				"Blue Mox"
+			],
+			"attack": 0,
+			"health": 2,
+			"energy_cost": 2,
+			"nosac": true,
+			"rare": true,
+			"banned": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_sentinel_orange.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Goranj's Vessel",
+			"sigils": [
+				"Orange Mox",
+				"Green Mox"
+			],
+			"attack": 0,
+			"health": 2,
+			"energy_cost": 2,
+			"nosac": true,
+			"rare": true,
+			"banned": true,
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_sentinel_blue.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Geck",
@@ -2259,20 +2577,35 @@
 			"type": "draft",
 			"cards":[
 				"Squirrel",
+				"Aquasquirrel",
 				"Geck",
 				"Skeleton",
+				"Exeskeleton",
 				"Empty Vessel",
 				"Energized Vessel",
 				"Bloody Vessel",
 				"Contaminated Vessel",
 				"Leaping Vessel",
 				"Conductive Vessel",
+				"Sentry Vessel",
 				"Splintered Vessel",
+				"Armored Vessel",
 				"Ruby Mox",
 				"Emerald Mox",
 				"Sapphire Mox",
 				"Shambling Cairn",
-				"Moon Shard"
+				"Moon Shard",
+				"Bleene's Mox",
+				"Goranj's Mox",
+				"Orlu's Mox",
+				"Magnus Mox",
+				"Mox Module",
+				"Orlu's Vessel",
+				"Bleene's Vessel",
+				"Goranj's Vessel",
+				"Ruby Vessel",
+				"Emerald Vessel",
+				"Sapphire Vessel"
 			],
 			"count": 12
 		},
@@ -2280,21 +2613,36 @@
 			"type": "draft",
 			"cards": [
 				"Squirrel",
+				"Aquasquirrel",
 				"Geck",
 				"Skeleton",
+				"Exeskeleton",
 				"Empty Vessel",
 				"Energized Vessel",
 				"Bloody Vessel",
 				"Contaminated Vessel",
 				"Leaping Vessel",
 				"Conductive Vessel",
+				"Sentry Vessel",
 				"Splintered Vessel",
+				"Armored Vessel",
 				"Ruby Mox",
 				"Emerald Mox",
 				"Sapphire Mox",
 				"Shambling Cairn",
 				"Moon Shard",
-				"Acid Squirrel"
+				"Acid Squirrel",
+				"Bleene's Mox",
+				"Goranj's Mox",
+				"Orlu's Mox",
+				"Magnus Mox",
+				"Mox Module",
+				"Orlu's Vessel",
+				"Bleene's Vessel",
+				"Goranj's Vessel",
+				"Ruby Vessel",
+				"Emerald Vessel",
+				"Sapphire Vessel"
 			],
 			"count":3
 		}
