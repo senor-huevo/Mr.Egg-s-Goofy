@@ -932,7 +932,7 @@
 				"Waterborne"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"banned": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_aquasquirrel.png",
 			"description":"Card art by syntaxevasion"
@@ -943,8 +943,7 @@
 				"Squirrel Shedder"
 			],
 			"attack": 0,
-			"health": 2,
-			"blood_cost": 1
+			"health": 2
 		},
 		{
 			"name": "Stoat",
