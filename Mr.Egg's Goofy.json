@@ -1476,7 +1476,35 @@
 			"attack": 1,
 			"health": 1,
 			"energy_cost": 3,
-			"banned": true
+			"sigils":[
+				"Sniper"
+			]
+		},
+		{
+			"name": "Skel-E-Latcher",
+			"sigils": [
+				"Brittle Latch"
+			],
+			"attack": 0,
+			"health": 1
+		},
+		{
+			"name": "Shield Latcher",
+			"sigils": [
+				"Shield Latch"
+			],
+			"attack": 0,
+			"health": 1,
+			"energy_cost": 2
+		},
+		{
+			"name": "Bomb Latcher",
+			"sigils": [
+				"Bomb Latch"
+			],
+			"attack": 0,
+			"health": 1,
+			"energy_cost": 1
 		},
 		{
 			"name": "Steambot",
