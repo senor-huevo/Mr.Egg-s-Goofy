@@ -2565,8 +2565,8 @@
 				"Orange Mox"
 			],
 			"attack": 0,
-			"health": 2,
-			"energy_cost": 1,
+			"health": 1,
+			"energy_cost": 2,
 			"nosac": true,
 			"rare": true,
 			"banned": true,
@@ -2580,8 +2580,8 @@
 				"Blue Mox"
 			],
 			"attack": 0,
-			"health": 2,
-			"energy_cost": 1,
+			"health": 1,
+			"energy_cost": 2,
 			"nosac": true,
 			"rare": true,
 			"banned": true,
@@ -2595,8 +2595,8 @@
 				"Green Mox"
 			],
 			"attack": 0,
-			"health": 2,
-			"energy_cost": 1,
+			"health": 1,
+			"energy_cost": 2,
 			"nosac": true,
 			"rare": true,
 			"banned": true,
