@@ -97,8 +97,8 @@
 		{
 			"name":"Jonah",
 			"attack": 2,
-			"health": 5,
-			"blood_cost": 3,
+			"health": 4,
+			"blood_cost": 2,
 			"sigils":[
 				"Bees Within",
 				"Sharp Quills"
@@ -139,7 +139,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 2,
+			"bone_cost": 1,
 			"rare": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_kaminski.png",
 			"description":"Card art by syntaxevasion"
@@ -162,7 +162,7 @@
 				"Touch of Death"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"bone_cost": 3,
 			"rare": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_reginald.png",
@@ -447,7 +447,6 @@
 			"name":"Pack Mule",
 			"attack": 0,
 			"health": 5,
-			"blood_cost":1,
 			"sigils":[
 				"Sprinter",
 				"Vessel Printer"
@@ -502,7 +501,9 @@
 			"name": "Ring Worm",
 			"attack": 0,
 			"health": 1,
-			"blood_cost": 1,
+			"sigils":[
+				"Touch of Death"
+			],
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_ringworm.png",
 			"description":"Card art by syntaxevasion"
 		},
@@ -589,7 +590,7 @@
 				"Burrower"
 			],
 			"attack": 0,
-			"health": 3
+			"health": 4
 		},
 		{
 			"name": "Mole Man",
@@ -750,7 +751,7 @@
 				"Airborne"
 			],
 			"attack": 2,
-			"health": 3,
+			"health": 4,
 			"blood_cost": 2
 		},
 		{
@@ -762,6 +763,19 @@
 			"attack": 2,
 			"health": 2,
 			"blood_cost": 2
+		},
+		{
+			"name": "Salmon Roe",
+			"attack": 0,
+			"health": 1,
+			"blood_cost": 1,
+			"sigils":[
+				"Waterborne",
+				"Fledgling"
+			],
+			"evolution": "Salmon",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Uwumacaronitime_Salmonroe.png",
+			"description":"Custom card by uwumacaronitime"
 		},
 		{
 			"name": "River Snapper",
@@ -948,9 +962,17 @@
 		{
 			"name": "Stoat",
 			"attack": 1,
+			"health": 4,
+			"blood_cost": 1,
+			"rare":true,
+			"description": "Note: Health was increased to 4 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
+		},
+		{
+			"name": "Vanilla Stoat",
+			"attack": 1,
 			"health": 3,
 			"blood_cost": 1,
-			"description": "Note: Health was increased to 3 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/ArtistUnknown_Stoat.png"
 		},
 		{
 			"name": "Urayuli",
@@ -1123,6 +1145,16 @@
 			"health": 1
 		},
 		{
+			"name":"Billdozer",
+			"attack": 0,
+			"health": 2,
+			"sigils":[
+				"Hefty"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Syntax_Billdozer.png",
+			"description": "Custom card by syntaxevasion"
+		},
+		{
 			"name": "Bolthound",
 			"sigils": [
 				"Guardian"
@@ -1150,6 +1182,17 @@
 				"Vessel Printer"
 			],
 			"energy_cost": 2
+		},
+		{
+			"name": "Buoy",
+			"attack": 0,
+			"health": 1,
+			"sigils":[
+				"Waterborne"
+			],
+			"conduit":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Uwumacaronitime_Buoy.png",
+			"description": "Custom card by uwumacaronitime"
 		},
 		{
 			"name": "Double Gunner",
@@ -1702,8 +1745,7 @@
 				"Bone Digger"
 			],
 			"attack": 0,
-			"health": 4,
-			"bone_cost": 1
+			"health": 4
 		},
 		{
 			"name": "Sporedigger",
@@ -1753,6 +1795,19 @@
 			"attack": 2,
 			"health": 1,
 			"bone_cost": 2
+		},
+		{
+			"name": "Grim Reaper",
+			"attack": 1,
+			"health": 1,
+			"bone_cost": 13,
+			"sigils": [
+				"Touch of Death",
+				"Omni Strike"
+			],
+			"rare": true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Syntax_Grimreaper.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Sarcophagus",
@@ -1861,7 +1916,7 @@
 				"Brittle",
 				"Looter"
 			],
-			"bone_cost": 7
+			"bone_cost": 6
 		},
 		{
 			"name": "Zombie Parrot",
@@ -2043,7 +2098,7 @@
 				"Green Mox"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"rare": true,
 			"nosac": true,
 			"banned":true
@@ -2055,7 +2110,7 @@
 				"Orange Mox"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"rare": true,
 			"nosac": true,
 			"banned":true
@@ -2067,7 +2122,7 @@
 				"Blue Mox"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"rare": true,
 			"nosac": true,
 			"banned":true
@@ -2108,7 +2163,7 @@
 				"Great Mox"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 1,
 			"nosac": true,
 			"banned": true,
 			"rare": true
@@ -2248,13 +2303,13 @@
 			"attack": 0,
 			"health": 2,
 			"sigils": [
-				"Fledgling",
-				"Gem Dependant"
+				"Fledgling"
 			],
 			"mox_cost": [
 				"Orange"
 			],
 			"evolution": "Ruby Dragon",
+			"rare":true,
 			"description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion"
 		},
 		{
@@ -2262,13 +2317,13 @@
 			"attack": 2,
 			"health": 2,
 			"sigils": [
-				"Bifurcated Strike",
-				"Gem Dependant"
+				"Bifurcated Strike"
 			],
 			"mox_cost": [
 				"Orange"
 			],
-			"banned": true
+			"banned": true,
+			"rare":true
 		},
 		{
 			"name": "Shower Mage",
@@ -2313,7 +2368,7 @@
 				"Blue"
 			],
 			"attack": 1,
-			"health": 4,
+			"health": 5,
 			"sigils": [
 				"Airborne",
 				"Mighty Leap"
@@ -2511,7 +2566,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"nosac": true,
 			"rare": true,
 			"banned": true,
@@ -2526,7 +2581,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"nosac": true,
 			"rare": true,
 			"banned": true,
@@ -2541,7 +2596,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 1,
 			"nosac": true,
 			"rare": true,
 			"banned": true,
