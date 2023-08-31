@@ -1053,14 +1053,14 @@
 		},
 		{
 			"name": "Worker Ant",
-			"attack": -1,
+			"attack": 0,
 			"health": 2,
 			"atkspecial": "ant",
 			"blood_cost": 1
 		},
 		{
 			"name": "Ant Queen",
-			"attack": -1,
+			"attack": 0,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 2,
@@ -1070,23 +1070,22 @@
 		},
 		{
 			"name": "Flying Ant",
-			"attack": -1,
+			"attack": 0,
 			"health": 1,
 			"atkspecial": "ant",
-			"blood_cost": 1,
+			"bone_cost": 3,
 			"sigils": [
 				"Airborne"
 			]
 		},
 		{
 			"name": "Bullet Ant",
-			"attack": -1,
+			"attack": 0,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 3,
 			"sigils": [
-				"Double Strike",
-				"Touch of Death"
+				"Double Strike"
 			],
 			"description": "Custom card by FishGuy101.\nCard art by Mark"
 		},
