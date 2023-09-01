@@ -224,7 +224,7 @@
 				"Dam Builder"
 			],
 			"attack": 1,
-			"health": 4,
+			"health": 3,
 			"blood_cost": 2
 		},
 		{
@@ -660,7 +660,7 @@
 		{
 			"name": "Skunk",
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"sigils": [
 				"Stinky",
 				"Guardian"
@@ -1092,7 +1092,7 @@
 		{
 			"name": "Mole Seaman",
 			"attack": 1,
-			"health": 8,
+			"health": 9,
 			"blood_cost": 2,
 			"sigils": [
 				"Mighty Leap",
@@ -1117,7 +1117,7 @@
 		{
 			"name":"Annoy FM",
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"sigils":[
 				"Annoying",
 				"Leader"
@@ -1160,7 +1160,7 @@
 			],
 			"attack": 2,
 			"health": 4,
-			"energy_cost": 5,
+			"energy_cost": 6,
 			"description": "Note: Health was increased to 3 to make it equivalent to other \"Hound\" cards."
 		},
 		{
@@ -1348,7 +1348,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"energy_cost": 2
+			"energy_cost": 1
 		},
 		{
 			"name": "No Moon",
