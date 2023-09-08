@@ -97,7 +97,7 @@
 		{
 			"name":"Jonah",
 			"attack": 2,
-			"health": 4,
+			"health": 2,
 			"blood_cost": 2,
 			"sigils":[
 				"Bees Within",
@@ -331,7 +331,7 @@
 			"sigils": [
 				"Unkillable"
 			],
-			"bone_cost": 3,
+			"bone_cost": 4,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -371,7 +371,6 @@
 				"Bone Digger",
 				"Fledgling"
 			],
-			"blood_cost": 1,
 			"rare":true,
 			"evolution": "Dire Wolf"
 		},
@@ -551,7 +550,7 @@
 			"sigils": [
 				"Leader"
 			],
-			"bone_cost": 5
+			"bone_cost": 4
 		},
 		{
 			"name": "Magpie",
@@ -780,7 +779,10 @@
 		{
 			"name": "River Snapper",
 			"attack": 1,
-			"health": 8,
+			"health": 7,
+			"sigils":[
+				"Made of Stone"
+			],
 			"blood_cost": 2,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
@@ -887,7 +889,7 @@
 		{
 			"name": "Turkey Vulture",
 			"attack": 3,
-			"health": 2,
+			"health": 3,
 			"sigils": [
 				"Airborne"
 			],
@@ -990,12 +992,13 @@
 			"health": 2,
 			"blood_cost": 1
 		},
-		{			"name": "Caged Wolf",
+		{
+		"name": "Caged Wolf",
 		"sigils": [
 			"Frozen Away"
 		],
 		"attack": 0,
-		"health": 5,
+		"health": 1,
 		"blood_cost": 1,
 		"nosac": true,
 		"nohammer": true,
@@ -1561,7 +1564,7 @@
 				"Great Mox"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 1,
 			"energy_cost": 3,
 			"rare": true,
 			"banned":true
@@ -1684,7 +1687,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 5,
+			"bone_cost": 4,
 			"description": "Note: Was made common due to lack of use.\nThen rare again.",
 			"rare": true
 		},
@@ -1736,7 +1739,7 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": 5
+			"bone_cost": 4
 		},
 		{
 			"name": "Gravedigger",
@@ -1799,7 +1802,7 @@
 			"name": "Grim Reaper",
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 13,
+			"bone_cost": 10,
 			"sigils": [
 				"Touch of Death",
 				"Omni Strike"
@@ -1887,7 +1890,7 @@
 		{
 			"name": "Floating Eye",
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"bone_cost": 3,
 			"sigils": [
 				"Airborne",
@@ -2357,7 +2360,7 @@
 				"Sprinter"
 			],
 			"attack": 2,
-			"health": 2,
+			"health": 3,
 			"description": "How hungry?\n\nCustom card by ener"
 		},
 		{
@@ -2855,7 +2858,6 @@
 				"Bleene's Mox",
 				"Goranj's Mox",
 				"Orlu's Mox",
-				"Magnus Mox",
 				"Mox Module",
 				"Orlu's Vessel",
 				"Bleene's Vessel",
@@ -2892,7 +2894,6 @@
 				"Bleene's Mox",
 				"Goranj's Mox",
 				"Orlu's Mox",
-				"Magnus Mox",
 				"Mox Module",
 				"Orlu's Vessel",
 				"Bleene's Vessel",
