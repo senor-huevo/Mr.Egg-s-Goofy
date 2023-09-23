@@ -331,7 +331,7 @@
 			"sigils": [
 				"Unkillable"
 			],
-			"bone_cost": 4,
+			"bone_cost": 3,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -398,7 +398,7 @@
 				"Sprinter",
 				"Fledgling"
 			],
-			"attack": 0,
+			"attack": 1,
 			"health": 2,
 			"blood_cost": 1,
 			"evolution": "Elk"
@@ -429,7 +429,7 @@
 				"Airborne"
 			],
 			"attack": 3,
-			"health": 1,
+			"health": 2,
 			"blood_cost": 2
 		},
 		{			"name": "Hodag",
@@ -675,7 +675,7 @@
 		{
 			"name": "Great White",
 			"attack": 4,
-			"health": 1,
+			"health": 2,
 			"blood_cost": 3,
 			"sigils": [
 				"Waterborne"
@@ -779,11 +779,11 @@
 		{
 			"name": "River Snapper",
 			"attack": 1,
-			"health": 7,
+			"health": 6,
 			"sigils":[
 				"Made of Stone"
 			],
-			"blood_cost": 2,
+			"blood_cost": 1,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -964,15 +964,21 @@
 		{
 			"name": "Stoat",
 			"attack": 1,
-			"health": 4,
+			"health": 3,
 			"blood_cost": 1,
+			"sigils": [
+				"Unkillable"
+			],
 			"rare":true,
 			"description": "Note: Health was increased to 4 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
 		},
 		{
 			"name": "Vanilla Stoat",
 			"attack": 1,
-			"health": 3,
+			"health": 2,
+			"sigils":[
+				"Fecundity (Kaycee)"
+			],
 			"blood_cost": 1,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/ArtistUnknown_Stoat.png"
 		},
@@ -1277,7 +1283,7 @@
 				"Transformer"
 			],
 			"attack": 0,
-			"health": 4,
+			"health": 5,
 			"energy_cost": 4,
 			"evolution": "GR1ZZ (beast)"
 		},
@@ -1287,7 +1293,7 @@
 				"Transformer"
 			],
 			"attack": 4,
-			"health": 4,
+			"health": 5,
 			"energy_cost": 4,
 			"evolution": "GR1ZZ",
 			"banned": true
@@ -1373,8 +1379,7 @@
 			"attack": 0,
 			"health": 2,
 			"energy_cost": 1,
-			"conduit": true,
-			"nosac":true
+			"conduit": true
 		},
 		{
 			"name": "Plasma Jimmy",
@@ -1530,7 +1535,8 @@
 			"sigils": [
 				"Brittle Latch"
 			],
-			"attack": 0,
+			"energy_cost":3,
+			"attack": 1,
 			"health": 1
 		},
 		{
@@ -1579,8 +1585,8 @@
 		{
 			"name": "Thick Droid",
 			"attack": 1,
-			"health": 6,
-			"energy_cost": 5,
+			"health": 4,
+			"energy_cost": 4,
 			"description": "Damn Boi!",
 			"sigils": [
 				"Thick"
@@ -1659,6 +1665,7 @@
 			],
 			"attack": 0,
 			"health": 1,
+			"bone_cost": -1,
 			"rare": true,
 			"active": true
 		},
@@ -2902,7 +2909,7 @@
 				"Emerald Vessel",
 				"Sapphire Vessel"
 			],
-			"count":3
+			"count":2
 		}
 	}
 }
