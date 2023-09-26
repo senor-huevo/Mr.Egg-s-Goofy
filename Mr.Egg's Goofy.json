@@ -480,9 +480,8 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 3,
-			"evolution": "Raven",
-			"blood_cost": 1
+			"health": 2,
+			"evolution": "Raven"
 		},
 		{
 			"name": "River Otter",
@@ -709,11 +708,9 @@
 		"health": 1,
 		"blood_cost": 1,
 		"sigils": [
-			"Fledgling"
+			"Fledgling 2"
 		],
 		"evolution": "Grizzly",
-		"rare": true,
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_grizzlycub.png",
 		"description":"Card art by syntaxevasion"
 	    },
 		{
@@ -1384,11 +1381,11 @@
 		{
 			"name": "Plasma Jimmy",
 			"sigils": [
-				"Energy Gun"
+				"Energy Sniper"
 			],
 			"attack": 0,
 			"health": 3,
-			"energy_cost": 1,
+			"energy_cost": 2,
 			"rare": true,
 			"active": true
 		},
@@ -1911,7 +1908,7 @@
 			"health": 4,
 			"bone_cost": 4,
 			"sigils": [
-				"Airborne",
+				"Mighty Leap",
 				"Made of Stone"
 			],
 			"description": "Custom card by syntaxevasion.\nLong overdue.",
@@ -2312,13 +2309,12 @@
 			"attack": 0,
 			"health": 2,
 			"sigils": [
-				"Fledgling"
+				"Fledgling 2"
 			],
 			"mox_cost": [
 				"Orange"
 			],
 			"evolution": "Ruby Dragon",
-			"rare":true,
 			"description": "Custom card by FishGuy101.\nUpdated art by syntaxevasion"
 		},
 		{
@@ -2331,8 +2327,7 @@
 			"mox_cost": [
 				"Orange"
 			],
-			"banned": true,
-			"rare":true
+			"banned": true
 		},
 		{
 			"name": "Shower Mage",
