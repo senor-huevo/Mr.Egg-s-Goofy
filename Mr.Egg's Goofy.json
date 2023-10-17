@@ -4,13 +4,13 @@
 	"ant_limit": 2,
 	"deck_size_min": 20,
 	"max_commons_main": 3,
-	"max_commons_side": 5,
+	"max_commons_side": 4,
 	"num_candles": 2,
 	"variable_attack_nerf": false,
 	"allow_snuffing_candles": true,
 	"opt_actives": false,
 	"enable_backrow": false,
-	"portrait": "",
+	"portrait": "pixport/Raven Egg",
 	"description": "Balanced by Mr.Egg and every whim he has",
 	"cards": [
 		{
@@ -44,7 +44,7 @@
 		{
 			"name": "David",
 			"attack": 2,
-			"health": 2,
+			"health": 3,
 			"blood_cost": 2,
 			"sigils":[
 				"Hefty",
@@ -97,7 +97,7 @@
 		{
 			"name":"Jonah",
 			"attack": 2,
-			"health": 2,
+			"health": 3,
 			"blood_cost": 2,
 			"sigils":[
 				"Bees Within",
@@ -109,12 +109,13 @@
 		},
 		{
 			"name":"Tahnee",
-			"attack": 0,
+			"attack": 2,
 			"health":1,
 			"sigils":[
 				"Trifurcated Strike"
 			],
 			"rare":true,
+			"blood_cost":3,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_david.png",
 			"description":"Card art by syntaxevasion"
 		},
@@ -205,8 +206,7 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"blood_cost":1,
-			"bone_cost":3,
+			"blood_cost":2,
 			"rare": true
 		},
 		{
@@ -225,15 +225,14 @@
 			],
 			"attack": 1,
 			"health": 3,
-			"blood_cost": 2
+			"blood_cost": 1
 		},
 		{
 			"name": "Dam",
 			"attack": 0,
 			"health": 2,
 			"sigils": [
-				"Mighty Leap",
-				"Sharp Quills"
+				"Mighty Leap"
 			],
 			"nosac": true,
 			"banned": true
@@ -281,7 +280,7 @@
 				"Mighty Leap"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 5,
 			"blood_cost": 1
 		},
 		{
@@ -291,7 +290,7 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"evolution": "Bullfrog",
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_tadpole.png"
 		},
@@ -480,7 +479,7 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"evolution": "Raven"
 		},
 		{
@@ -490,7 +489,7 @@
 				"Stinky"
 			],
 			"attack": 1,
-			"health": 1,
+			"health": 2,
 			"blood_cost": 1,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_otter.png",
 			"description":"Card art by syntaxevasion"
@@ -788,7 +787,8 @@
 			"attack": 1,
 			"health": 3,
 			"sigils": [
-				"Airborne"
+				"Airborne",
+				"Fecundity (Kaycee)"
 			],
 			"blood_cost": 1,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
@@ -854,7 +854,7 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 4,
 			"blood_cost": 1,
 			"evolution": "Strange Pupa",
 			"rare": true,
@@ -866,7 +866,7 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 4,
 			"blood_cost": 1,
 			"banned": true,
 			"evolution": "Mothman",
@@ -878,7 +878,7 @@
 				"Airborne"
 			],
 			"attack": 7,
-			"health": 3,
+			"health": 4,
 			"blood_cost": 1,
 			"banned": true,
 			"rare": true
@@ -927,7 +927,7 @@
 		{
 			"name": "Raccoon",
 			"attack": 1,
-			"health": 2,
+			"health": 3,
 			"sigils": [
 				"Scavenger"
 			],
@@ -961,7 +961,7 @@
 		{
 			"name": "Stoat",
 			"attack": 1,
-			"health": 3,
+			"health": 4,
 			"blood_cost": 1,
 			"sigils": [
 				"Unkillable"
@@ -972,7 +972,7 @@
 		{
 			"name": "Vanilla Stoat",
 			"attack": 1,
-			"health": 2,
+			"health": 3,
 			"sigils":[
 				"Fecundity (Kaycee)"
 			],
@@ -1269,7 +1269,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 3,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_conduitgems.png",
 			"conduit":true,
 			"description":"Card art by syntaxevasion"
@@ -1280,8 +1280,8 @@
 				"Transformer"
 			],
 			"attack": 0,
-			"health": 5,
-			"energy_cost": 4,
+			"health": 3,
+			"energy_cost": 3,
 			"evolution": "GR1ZZ (beast)"
 		},
 		{
@@ -1290,8 +1290,8 @@
 				"Transformer"
 			],
 			"attack": 4,
-			"health": 5,
-			"energy_cost": 4,
+			"health": 4,
+			"energy_cost": 3,
 			"evolution": "GR1ZZ",
 			"banned": true
 		},
@@ -1384,7 +1384,7 @@
 				"Energy Sniper"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"energy_cost": 2,
 			"rare": true,
 			"active": true
@@ -1446,7 +1446,7 @@
 			"Armored"
 		],
 		"attack": 1,
-		"health": 1,
+		"health": 2,
 		"energy_cost": 3,
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_shieldbot.png",
 		"description":"Card art by syntaxevasion"
@@ -1522,7 +1522,7 @@
 			"name": "Sniper Bot",
 			"attack": 1,
 			"health": 1,
-			"energy_cost": 3,
+			"energy_cost": 2,
 			"sigils":[
 				"Sniper"
 			]
@@ -1532,7 +1532,7 @@
 			"sigils": [
 				"Brittle Latch"
 			],
-			"energy_cost":3,
+			"energy_cost": 2,
 			"attack": 1,
 			"health": 1
 		},
@@ -1542,7 +1542,7 @@
 				"Shield Latch"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 2
 		},
 		{
@@ -1567,7 +1567,7 @@
 				"Great Mox"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 3,
 			"rare": true,
 			"banned":true
@@ -1854,7 +1854,7 @@
 			],
 			"attack": 4,
 			"health": 1,
-			"bone_cost": 4,
+			"bone_cost": 3,
 			"description": "A plague is once again released upon this earth."
 		},
 		{
@@ -1922,7 +1922,7 @@
 				"Brittle",
 				"Looter"
 			],
-			"bone_cost": 6
+			"bone_cost": 5
 		},
 		{
 			"name": "Zombie Parrot",
@@ -2180,7 +2180,7 @@
 				"Hefty"
 			],
 			"attack": 1,
-			"health": 2,
+			"health": 3,
 			"mox_cost": [
 				"Green"
 			]
@@ -2211,7 +2211,8 @@
 		{
 			"name": "Mage Pupil",
 			"sigils": [
-				"Gem Dependant"
+				"Gem Dependant",
+				"Fecundity (Kaycee)"
 			],
 			"attack": 1,
 			"health": 2
@@ -2338,7 +2339,7 @@
 				"Stinky"
 			],
 			"attack": 1,
-			"health": 1,
+			"health": 2,
 			"description": "Custom card by FishGuy101"
 		},
 		{
@@ -2410,7 +2411,7 @@
 			"name": "Animox",
 			"blood_cost": 1,
 			"attack": 1,
-			"health": 2,
+			"health": 3,
 			"sigils": [
 				"Blue Mox",
 				"Sprinter"
@@ -2462,7 +2463,7 @@
 		{
 			"name": "Ruby Vessel",
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
@@ -2475,7 +2476,7 @@
 		{
 			"name": "Sapphire Vessel",
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
@@ -2488,7 +2489,7 @@
 		{
 			"name": "Emerald Vessel",
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
@@ -2569,7 +2570,7 @@
 				"Orange Mox"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 2,
 			"nosac": true,
 			"rare": true,
@@ -2584,7 +2585,7 @@
 				"Blue Mox"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 2,
 			"nosac": true,
 			"rare": true,
@@ -2599,7 +2600,7 @@
 				"Green Mox"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 2,
 			"nosac": true,
 			"rare": true,
