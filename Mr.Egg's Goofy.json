@@ -142,7 +142,7 @@
 			"health": 1,
 			"bone_cost": 1,
 			"rare": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_kaminski.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_kaminski.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -154,7 +154,7 @@
 			"attack": 1,
 			"health": 1,
 			"rare": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_louis.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_louis.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -166,7 +166,7 @@
 			"health": 2,
 			"bone_cost": 3,
 			"rare": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_reginald.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_reginald.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -178,7 +178,7 @@
 			"health": 2,
 			"bone_cost": 3,
 			"rare": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_talkstinkbug.png",
+			"pixport_url":  "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_talkstinkbug.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -187,7 +187,7 @@
 			"health": 2,
 			"blood_cost": 1,
 			"rare": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_talkstunt.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_talkstunt.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -292,7 +292,7 @@
 			"attack": 0,
 			"health": 2,
 			"evolution": "Bullfrog",
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_tadpole.png"
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_tadpole.png"
 		},
 		{
 			"name": "Burrowing Trap",
@@ -439,7 +439,7 @@
 		"health": 5,
 		"blood_cost": 2,
 		"rare": true,
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_hodag.png"
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_hodag.png"
 	    },
 		{
 			"name":"Pack Mule",
@@ -491,7 +491,7 @@
 			"attack": 1,
 			"health": 2,
 			"blood_cost": 1,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_otter.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_otter.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -501,7 +501,7 @@
 			"sigils":[
 				"Touch of Death"
 			],
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_ringworm.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_ringworm.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -634,7 +634,7 @@
 		"bone_cost": 2,
 		"nosac": true,
 		"evolution": "Opossum",
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_frozenopossum.png",
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_frozenopossum.png",
 		"description":"Card art by syntaxevasion"
 	    },
 		{
@@ -947,7 +947,7 @@
 			"attack": 0,
 			"health": 2,
 			"banned": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_aquasquirrel.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_aquasquirrel.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -1007,7 +1007,7 @@
 		"nohammer": true,
 		"rare": true,
 		"evolution": "Wolf",
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_cagedwolf.png",
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_cagedwolf.png",
 		"description":"Card art by syntaxevasion"
 	    },
 		{
@@ -1033,7 +1033,7 @@
 		"attack": 1,
 		"health": 3,
 		"bone_cost": 4,
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/pixelportrait_wolverine.png"
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_wolverine.png"
 	    },
 		{
 			"name": "Fox",
@@ -1054,7 +1054,7 @@
 			"attack": 0,
 			"health": 2,
 			"blood_cost": 1,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_anthill.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_anthill.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -1448,7 +1448,7 @@
 		"attack": 1,
 		"health": 2,
 		"energy_cost": 3,
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_shieldbot.png",
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_shieldbot.png",
 		"description":"Card art by syntaxevasion"
 	    },
 		{
@@ -1843,7 +1843,7 @@
 			"health": 1,
 			"energy_cost": 1,
 			"banned": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_roboskeleton.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_roboskeleton.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -1867,7 +1867,7 @@
 			"bone_cost": 3,
 			"rare": true,
 			"nosac": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_tombstonebot.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_tombstonebot.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -2445,7 +2445,7 @@
 		"sigils": [
 			"Armored"
 		],
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_vesselfortified.png",
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_vesselfortified.png",
 		"description":"Card art by syntaxevasion"
 	    },
 		{	"name": "Sentry Vessel",
@@ -2457,7 +2457,7 @@
 		"sigils": [
 			"Sentry"
 		],
-		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_vesselsentry.png",
+		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_vesselsentry.png",
 		"description":"Card art by syntaxevasion"
 	    },
 		{
@@ -2470,7 +2470,7 @@
 			"sigils": [
 				"Orange Mox"
 			],
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_emptyvessel_orange.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_emptyvessel_orange.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -2483,7 +2483,7 @@
 			"sigils": [
 				"Blue Mox"
 			],
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_emptyvessel_blue.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_emptyvessel_blue.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -2496,7 +2496,7 @@
 			"sigils": [
 				"Green Mox"
 			],
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_emptyvessel_green.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_emptyvessel_green.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -2575,7 +2575,7 @@
 			"nosac": true,
 			"rare": true,
 			"banned": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_sentinel_green.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_sentinel_green.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -2590,7 +2590,7 @@
 			"nosac": true,
 			"rare": true,
 			"banned": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_sentinel_orange.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_sentinel_orange.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -2605,7 +2605,7 @@
 			"nosac": true,
 			"rare": true,
 			"banned": true,
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/syntax_sentinel_blue.png",
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_sentinel_blue.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
