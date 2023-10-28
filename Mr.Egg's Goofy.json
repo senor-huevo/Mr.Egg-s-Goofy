@@ -37,7 +37,7 @@
 			"name": "James Cobb",
 			"attack": 0,
 			"health": 3,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_corncobb.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_corncobb.png",
 			"description":"Card art by syntaxevasion",
 			"rare":true
 		},
@@ -51,7 +51,7 @@
 				"Sharp Quills"
 			],
 			"rare":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_david.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_david.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -66,7 +66,7 @@
 			],
 			"evolution":"Opossum",
 			"rare":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_berke.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_berke.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -79,7 +79,7 @@
 				"Mighty Leap",
 				"Touch of Death"
 			],
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_sean.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_sean.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -90,7 +90,7 @@
 				"Double Strike"
 			],
 			"rare":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_daniel.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_daniel.png",
 			"blood_cost": 1,
 			"description":"Card art by syntaxevasion"
 		},
@@ -104,19 +104,19 @@
 				"Sharp Quills"
 			],
 			"rare":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_jonah.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_jonah.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name":"Tahnee",
-			"attack": 2,
+			"attack": 3,
 			"health":1,
 			"sigils":[
 				"Trifurcated Strike"
 			],
 			"rare":true,
-			"blood_cost":3,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_david.png",
+			"blood_cost":4,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_david.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -129,7 +129,7 @@
 			],
 			"blood_cost":1,
 			"rare":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_kaycee.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_kaycee.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -427,9 +427,9 @@
 			"sigils": [
 				"Airborne"
 			],
-			"attack": 3,
-			"health": 2,
-			"blood_cost": 2
+			"attack": 2,
+			"health": 1,
+			"blood_cost": 1
 		},
 		{			"name": "Hodag",
 		"sigils": [
@@ -450,7 +450,7 @@
 				"Vessel Printer"
 			],
 			"rare":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_mule.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_mule.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -489,7 +489,7 @@
 				"Stinky"
 			],
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"blood_cost": 1,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_otter.png",
 			"description":"Card art by syntaxevasion"
@@ -692,7 +692,7 @@
 			"nosac":true,
 			"nohammer":true,
 			"rare":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_baitbucket.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_baitbucket.png",
 			"description":"Card art by syntaxevasion"
 
 		},
@@ -769,7 +769,7 @@
 				"Fledgling"
 			],
 			"evolution": "Salmon",
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Uwumacaronitime_Salmonroe.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Uwumacaronitime_Salmonroe.png",
 			"description":"Custom card by uwumacaronitime"
 		},
 		{
@@ -961,7 +961,7 @@
 		{
 			"name": "Stoat",
 			"attack": 1,
-			"health": 4,
+			"health": 3,
 			"blood_cost": 1,
 			"sigils": [
 				"Unkillable"
@@ -977,7 +977,7 @@
 				"Fecundity (Kaycee)"
 			],
 			"blood_cost": 1,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/ArtistUnknown_Stoat.png"
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Vanilla_Stoat.png"
 		},
 		{
 			"name": "Urayuli",
@@ -1059,14 +1059,14 @@
 		},
 		{
 			"name": "Worker Ant",
-			"attack": 0,
+			"attack": -1,
 			"health": 2,
 			"atkspecial": "ant",
 			"blood_cost": 1
 		},
 		{
 			"name": "Ant Queen",
-			"attack": 0,
+			"attack": -1,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 2,
@@ -1076,7 +1076,7 @@
 		},
 		{
 			"name": "Flying Ant",
-			"attack": 0,
+			"attack": -1,
 			"health": 1,
 			"atkspecial": "ant",
 			"bone_cost": 3,
@@ -1086,7 +1086,7 @@
 		},
 		{
 			"name": "Bullet Ant",
-			"attack": 0,
+			"attack": -1,
 			"health": 3,
 			"atkspecial": "ant",
 			"blood_cost": 3,
@@ -1129,7 +1129,7 @@
 				"Leader"
 			],
 			"energy_cost":5,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_annoyfm.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_annoyfm.png",
 			"description": "Card art by syntaxevasion"
 		},
 		{
@@ -1156,7 +1156,7 @@
 			"sigils":[
 				"Hefty"
 			],
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Syntax_Billdozer.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Billdozer.png",
 			"description": "Custom card by syntaxevasion"
 		},
 		{
@@ -1196,7 +1196,7 @@
 				"Waterborne"
 			],
 			"conduit":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Uwumacaronitime_Buoy.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Uwumacaronitime_Buoy.png",
 			"description": "Custom card by uwumacaronitime"
 		},
 		{
@@ -1259,7 +1259,7 @@
 				"Gem Dependant"
 			],
 			"energy_cost":4,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_gemripper.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_gemripper.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -1270,9 +1270,10 @@
 			"attack": 0,
 			"health": 2,
 			"energy_cost": 3,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_conduitgems.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/Art/Portraits/main/syntax_conduitgems.png",
 			"conduit":true,
-			"description":"Card art by syntaxevasion"
+			"description":"Card art by syntaxevasion",
+			"rare": true
 		},
 		{
 			"name": "GR1ZZ",
@@ -1280,7 +1281,7 @@
 				"Transformer"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 4,
 			"energy_cost": 3,
 			"evolution": "GR1ZZ (beast)"
 		},
@@ -1344,7 +1345,7 @@
 			],
 			"rare":true,
 			"energy_cost":6,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/syntax_mycobot.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_mycobot.png",
 			"description":"Card art by syntaxevasion"
 	    },
 		{
@@ -1374,7 +1375,7 @@
 				"Fecundity (Kaycee)"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"energy_cost": 1,
 			"conduit": true
 		},
@@ -1446,8 +1447,8 @@
 			"Armored"
 		],
 		"attack": 1,
-		"health": 2,
-		"energy_cost": 3,
+		"health": 1,
+		"energy_cost": 2,
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_shieldbot.png",
 		"description":"Card art by syntaxevasion"
 	    },
@@ -1582,8 +1583,8 @@
 		{
 			"name": "Thick Droid",
 			"attack": 1,
-			"health": 4,
-			"energy_cost": 4,
+			"health": 5,
+			"energy_cost": 5,
 			"description": "Damn Boi!",
 			"sigils": [
 				"Thick"
@@ -1812,7 +1813,7 @@
 				"Omni Strike"
 			],
 			"rare": true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Syntax_Grimreaper.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Grimreaper.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -1840,7 +1841,7 @@
 				"Brittle"
 			],
 			"attack": 1,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 1,
 			"banned": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_roboskeleton.png",
