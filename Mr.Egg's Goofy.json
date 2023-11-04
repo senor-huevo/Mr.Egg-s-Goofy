@@ -1213,9 +1213,9 @@
 			"sigils": [
 				"Energy Conduit (+3)"
 			],
-			"attack": 0,
-			"health": 3,
-			"energy_cost": 3,
+			"attack": 1,
+			"health": 1,
+			"energy_cost": 2,
 			"conduit": true,
 			"description": "Note: Effect was changed to prevent infinitely buffing stim mage."
 		},
@@ -1568,10 +1568,9 @@
 				"Great Mox"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"energy_cost": 3,
-			"rare": true,
-			"banned":true
+			"rare": true
 		},
 		{
 			"name": "Mirror Bot",
@@ -2105,10 +2104,9 @@
 				"Green Mox"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"rare": true,
-			"nosac": true,
-			"banned":true
+			"nosac": true
 		},
 		{
 			"name": "Goranj's Mox",
@@ -2117,10 +2115,9 @@
 				"Orange Mox"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"rare": true,
-			"nosac": true,
-			"banned":true
+			"nosac": true
 		},
 		{
 			"name": "Orlu's Mox",
@@ -2129,10 +2126,9 @@
 				"Blue Mox"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"rare": true,
-			"nosac": true,
-			"banned":true
+			"nosac": true
 		},
 		{
 			"name": "Emerald Mox",
@@ -2859,10 +2855,6 @@
 				"Sapphire Mox",
 				"Shambling Cairn",
 				"Moon Shard",
-				"Bleene's Mox",
-				"Goranj's Mox",
-				"Orlu's Mox",
-				"Mox Module",
 				"Orlu's Vessel",
 				"Bleene's Vessel",
 				"Goranj's Vessel",
@@ -2895,10 +2887,6 @@
 				"Shambling Cairn",
 				"Moon Shard",
 				"Acid Squirrel",
-				"Bleene's Mox",
-				"Goranj's Mox",
-				"Orlu's Mox",
-				"Mox Module",
 				"Orlu's Vessel",
 				"Bleene's Vessel",
 				"Goranj's Vessel",
