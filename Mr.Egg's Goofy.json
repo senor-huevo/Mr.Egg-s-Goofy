@@ -1624,7 +1624,8 @@
 				"Depleting"
 			],
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Manager.png",
-			"description":"Card art by syntaxevasion"
+			"description":"Card art by syntaxevasion",
+			"rare":true
 		},
 		{
 			"name": "Thick",
@@ -1829,7 +1830,7 @@
 				"Armored"
 			],
 			"bone_cost": 6,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Haunted Armor.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Armor.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
