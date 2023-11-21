@@ -1178,7 +1178,7 @@
 			"attack": 2,
 			"health": 4,
 			"energy_cost": 6,
-			"description": "Note: Health was increased to 3 to make it equivalent to other \"Hound\" cards."
+			"description": "Note: Health was increased to 4 to make it equivalent to other \"Hound\" cards."
 		},
 		{
 			"name": "Buff Conduit",
@@ -1571,7 +1571,7 @@
 			"attack": 3,
 			"health": 2,
 			"energy_cost": 5,
-			"description": "Note: This card's attack was increased to make it worth 6 energy."
+			"description": "Note: This card's attack was increased to make it worth 5 energy."
 		},
 		{
 			"name": "Gunbot",
