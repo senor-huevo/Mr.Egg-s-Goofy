@@ -774,9 +774,6 @@
 			"name": "River Snapper",
 			"attack": 1,
 			"health": 6,
-			"sigils":[
-				"Made of Stone"
-			],
 			"blood_cost": 1,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
