@@ -15,9 +15,6 @@
 	"cards": [
 		{
 			"name": "Starvation",
-			"sigils": [
-				"Repulsive"
-			],
 			"attack": 1,
 			"health": 1,
 			"banned": true
@@ -163,7 +160,7 @@
 				"Touch of Death"
 			],
 			"attack": 1,
-			"health": 2,
+			"health": 3,
 			"bone_cost": 3,
 			"rare": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_reginald.png",
@@ -398,7 +395,7 @@
 				"Fledgling"
 			],
 			"attack": 1,
-			"health": 2,
+			"health": 3,
 			"blood_cost": 1,
 			"evolution": "Elk"
 		},
@@ -548,7 +545,7 @@
 			"sigils": [
 				"Leader"
 			],
-			"bone_cost": 4
+			"bone_cost": 5
 		},
 		{
 			"name": "Magpie",
@@ -631,7 +628,7 @@
 		],
 		"attack": 0,
 		"health": 1,
-		"bone_cost": 2,
+		"bone_cost": 1,
 		"nosac": true,
 		"evolution": "Opossum",
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_frozenopossum.png",
@@ -717,6 +714,7 @@
 			"attack": 1,
 			"health": 2,
 			"sigils": [
+				"Sharp Quills",
 				"Sharp Quills"
 			],
 			"blood_cost": 1,
@@ -890,7 +888,7 @@
 			"sigils": [
 				"Airborne"
 			],
-			"bone_cost": 7,
+			"bone_cost": 8,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -927,7 +925,7 @@
 		{
 			"name": "Raccoon",
 			"attack": 1,
-			"health": 3,
+			"health": 4,
 			"sigils": [
 				"Scavenger"
 			],
@@ -961,7 +959,7 @@
 		{
 			"name": "Stoat",
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"blood_cost": 1,
 			"sigils": [
 				"Unkillable"
@@ -1112,6 +1110,19 @@
 			"health": 3,
 			"energy_cost": 4,
 			"rare": true
+		},
+		{
+			"name": "Claptrap",
+			"attack": 2,
+			"health": 1,
+			"sigils":[
+				"Depleting",
+				"Steel Trap"
+			],
+			"energy_cost": 5,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Claptrap.png",
+			"description":"Card art by syntaxevasion",
+			"nosac":true
 		},
 		{
 			"name": "Automaton",
@@ -1563,6 +1574,17 @@
 			"description": "Note: This card's attack was increased to make it worth 6 energy."
 		},
 		{
+			"name": "Gunbot",
+			"attack":1,
+			"health":1,
+			"sigils": [
+				"Sentry"
+			],
+			"energy_cost": 2,
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gunboat.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Mox Module",
 			"sigils": [
 				"Great Mox"
@@ -1590,6 +1612,19 @@
 			],
 			"left_half": "Thick",
 			"right_half": "Droid"
+		},
+		{
+			"name": "Task Manager",
+			"energy_cost": 6,
+			"attack": 6,
+			"health": 6,
+			"sigils":[
+				"Depleting",
+				"Depleting",
+				"Depleting"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Task Manager.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Thick",
@@ -1716,8 +1751,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 3,
-			"rare": true
+			"bone_cost": 3
 		},
 		{
 			"name": "The Walkers",
@@ -1754,6 +1788,18 @@
 			"health": 4
 		},
 		{
+			"name":"Gashadokuro",
+			"attack":4,
+			"health":5,
+			"sigils":[
+				"Bone King"
+			],
+			"bone_cost":10,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gashadokuro.png",
+			"rare":true,
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Sporedigger",
 			"sigils": [
 				"Bone Digger",
@@ -1776,10 +1822,34 @@
 			"rare": true
 		},
 		{
+			"name": "Haunted Armor",
+			"attack": 2,
+			"health": 2,
+			"sigils":[
+				"Armored"
+			],
+			"bone_cost": 6,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Haunted Armor.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Mummy Lord",
 			"attack": 3,
 			"health": 3,
 			"bone_cost": 7
+		},
+		{
+			"name":"Mox Stone",
+			"bone_cost": 2,
+			"attack":0,
+			"health": 3,
+			"sigils":[
+				"Green Mox",
+				"Made of Stone"
+			],
+			"nosac":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Mox Stone.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Necromancer",
@@ -1823,7 +1893,8 @@
 			"attack": 0,
 			"health": 2,
 			"bone_cost": 3,
-			"evolution": "Mummy Lord"
+			"evolution": "Mummy Lord",
+			"nosac":true
 		},
 		{
 			"name": "Skeleton",
@@ -1985,8 +2056,7 @@
 		{
 			"name": "Force Mage",
 			"sigils": [
-				"Repulsive",
-				"Mighty Leap"
+				"Repulsive"
 			],
 			"attack": 0,
 			"health": 1,
@@ -2183,6 +2253,19 @@
 			]
 		},
 		{
+			"name": "Magician",
+			"attack": 0,
+			"health": 1,
+			"mox_cost":[
+				"Blue"
+			],
+			"sigils":[
+				"Rabbit Hole"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Magician.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Orange Mage",
 			"sigils": [
 				"Gem Animator"
@@ -2203,13 +2286,13 @@
 			],
 			"mox_cost": [
 				"Orange"
-			]
+			],
+			"nosac":true
 		},
 		{
 			"name": "Mage Pupil",
 			"sigils": [
-				"Gem Dependant",
-				"Fecundity (Kaycee)"
+				"Gem Dependant"
 			],
 			"attack": 1,
 			"health": 2
@@ -2249,7 +2332,8 @@
 			"mox_cost": [
 				"Orange"
 			],
-			"description": "Custom card by FishGuy101"
+			"description": "Custom card by FishGuy101",
+			"nosac": true
 		},
 		{
 			"name": "Mox Bunker",
@@ -2262,7 +2346,8 @@
 			"mox_cost": [
 				"Blue"
 			],
-			"description": "Custom Card by BishopAdams"
+			"description": "Custom Card by BishopAdams",
+			"nosac" : true
 		},
 		{
 			"name": "Mox Encampment",
@@ -2275,7 +2360,8 @@
 			"mox_cost": [
 				"Green"
 			],
-			"description": "Custom Card by BishopAdams"
+			"description": "Custom Card by BishopAdams",
+			"nosac":true
 		},
 		{
 			"name": "Thief Mage",
@@ -2318,7 +2404,7 @@
 		{
 			"name": "Ruby Dragon",
 			"attack": 2,
-			"health": 2,
+			"health": 3,
 			"sigils": [
 				"Bifurcated Strike"
 			],
@@ -2348,7 +2434,8 @@
 			"energy_cost": 2,
 			"attack": 0,
 			"health": 1,
-			"description": "Custom card by FishGuy101"
+			"description": "Custom card by FishGuy101",
+			"nosac":true
 		},
 		{
 			"name": "Horse Mage",
