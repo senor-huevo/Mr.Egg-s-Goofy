@@ -1581,7 +1581,7 @@
 				"Sentry"
 			],
 			"energy_cost": 2,
-			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gunboat.png",
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gunbot.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -1623,7 +1623,7 @@
 				"Depleting",
 				"Depleting"
 			],
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Task Manager.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Manager.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -1848,7 +1848,7 @@
 				"Made of Stone"
 			],
 			"nosac":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Mox Stone.png",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Stone.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
