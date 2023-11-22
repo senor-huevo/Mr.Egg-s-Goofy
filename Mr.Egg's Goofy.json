@@ -277,7 +277,7 @@
 				"Mighty Leap"
 			],
 			"attack": 1,
-			"health": 5,
+			"health": 4,
 			"blood_cost": 1
 		},
 		{
@@ -395,7 +395,7 @@
 				"Fledgling"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"blood_cost": 1,
 			"evolution": "Elk"
 		},
@@ -466,9 +466,9 @@
 			"sigils": [
 				"Bone King"
 			],
-			"attack": 2,
-			"health": 2,
-			"blood_cost": 2
+			"attack": 1,
+			"health": 1,
+			"blood_cost": 1
 		},
 		{
 			"name": "Raven Egg",
@@ -476,7 +476,7 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"evolution": "Raven"
 		},
 		{
@@ -773,7 +773,7 @@
 		{
 			"name": "River Snapper",
 			"attack": 1,
-			"health": 6,
+			"health": 5,
 			"blood_cost": 1,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
@@ -849,7 +849,7 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 4,
+			"health": 3,
 			"blood_cost": 1,
 			"evolution": "Strange Pupa",
 			"rare": true,
@@ -873,7 +873,7 @@
 				"Airborne"
 			],
 			"attack": 7,
-			"health": 4,
+			"health": 5,
 			"blood_cost": 1,
 			"banned": true,
 			"rare": true
@@ -922,7 +922,7 @@
 		{
 			"name": "Raccoon",
 			"attack": 1,
-			"health": 4,
+			"health": 3,
 			"sigils": [
 				"Scavenger"
 			],
@@ -961,8 +961,7 @@
 			"sigils": [
 				"Unkillable"
 			],
-			"rare":true,
-			"description": "Note: Health was increased to 4 to make it better than Bullfrog in at least one way. Bears a unique ability from Act 1."
+			"rare":true
 		},
 		{
 			"name": "Vanilla Stoat",
@@ -1047,7 +1046,7 @@
 				"Ant Spawner"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"blood_cost": 1,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_anthill.png",
 			"description":"Card art by syntaxevasion"
@@ -1173,9 +1172,21 @@
 				"Guardian"
 			],
 			"attack": 2,
-			"health": 4,
-			"energy_cost": 6,
-			"description": "Note: Health was increased to 4 to make it equivalent to other \"Hound\" cards."
+			"health": 3,
+			"energy_cost": 5
+		},
+		{
+			"name": "Broken Bot",
+			"attack": 0,
+			"health": 1,
+			"energy_cost":1,
+			"sigils":[
+				"Depleting",
+				"Detonator (5)"
+			],
+			"nosac":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Brokenbot.png",
+			"description": "Card art by syntaxevasion"
 		},
 		{
 			"name": "Buff Conduit",
@@ -1673,8 +1684,8 @@
 				"Guardian"
 			],
 			"attack": 2,
-			"health": 4,
-			"bone_cost": 6
+			"health": 3,
+			"bone_cost": 5
 		},
 		{
 			"name": "Bone Lord's Horn",
