@@ -1185,8 +1185,8 @@
 				"Detonator (5)"
 			],
 			"nosac":true,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Brokenbot.png",
-			"description": "Card art by syntaxevasion"
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_brokenbot.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Buff Conduit",
