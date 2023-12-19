@@ -1182,7 +1182,6 @@
 			"health": 1,
 			"energy_cost":1,
 			"sigils":[
-				"Depleting",
 				"Detonator (5)"
 			],
 			"nosac":true,
@@ -1799,7 +1798,7 @@
 		},
 		{
 			"name":"Gashadokuro",
-			"attack":4,
+			"attack":5,
 			"health":5,
 			"sigils":[
 				"Bone King"
@@ -1838,7 +1837,7 @@
 			"sigils":[
 				"Armored"
 			],
-			"bone_cost": 6,
+			"bone_cost": 5,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Armor.png",
 			"description":"Card art by syntaxevasion"
 		},
@@ -1886,7 +1885,7 @@
 			"name": "Grim Reaper",
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 10,
+			"bone_cost": 8,
 			"sigils": [
 				"Touch of Death",
 				"Omni Strike"
