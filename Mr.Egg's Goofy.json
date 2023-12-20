@@ -420,6 +420,18 @@
 			"banned": true
 		},
 		{
+			"name": "Lab Rat",
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Stimulate (4)"
+			],
+			"blood_cost": 1,
+			"active":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Labrat.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Hawk",
 			"sigils": [
 				"Airborne"
