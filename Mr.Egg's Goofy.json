@@ -362,12 +362,12 @@
 		{
 			"name": "Dire Wolf Pup",
 			"attack": 1,
-			"health": 1,
+			"health": 2,
+			"blood_cost": 1,
 			"sigils": [
 				"Bone Digger",
-				"Fledgling"
+				"Fledgling 2"
 			],
-			"rare":true,
 			"evolution": "Dire Wolf"
 		},
 		{
@@ -829,20 +829,23 @@
 			"name": "Rabbit Pelt",
 			"attack": 0,
 			"health": 1,
-			"nosac": true
+			"nosac": true,
+			"banned":true
 		},
 		{
 			"name": "Wolf Pelt",
 			"attack": 0,
 			"health": 2,
-			"nosac": true
+			"nosac": true,
+			"banned":true
 		},
 		{
 			"name": "Golden Pelt",
 			"attack": 0,
 			"health": 3,
 			"nosac": true,
-			"rare": true
+			"rare": true,
+			"banned":true
 		},
 		{
 			"name": "Pelt Lice",
@@ -1408,7 +1411,8 @@
 			"attack": 0,
 			"health": 1,
 			"energy_cost": 1,
-			"conduit": true
+			"conduit": true,
+			"nosac": true
 		},
 		{
 			"name": "Plasma Jimmy",
@@ -1624,7 +1628,7 @@
 		{
 			"name": "Thick Droid",
 			"attack": 1,
-			"health": 5,
+			"health": 4,
 			"energy_cost": 5,
 			"description": "Damn Boi!",
 			"sigils": [
@@ -1636,8 +1640,8 @@
 		{
 			"name": "Task Manager",
 			"energy_cost": 6,
-			"attack": 6,
-			"health": 6,
+			"attack": 5,
+			"health": 5,
 			"sigils":[
 				"Depleting",
 				"Depleting",
@@ -1806,7 +1810,7 @@
 				"Bone Digger"
 			],
 			"attack": 0,
-			"health": 4
+			"health": 3
 		},
 		{
 			"name":"Gashadokuro",
@@ -1839,7 +1843,7 @@
 			],
 			"attack": 5,
 			"health": 5,
-			"bone_cost": 12,
+			"bone_cost": 13,
 			"rare": true
 		},
 		{
@@ -1952,7 +1956,8 @@
 		{
 			"name": "Tombstone",
 			"sigils": [
-				"Repulsive"
+				"Repulsive",
+				"Made of Stone"
 			],
 			"attack": 0,
 			"health": 5,
@@ -2180,13 +2185,12 @@
 				"Looter"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"mox_cost": [
 				"Orange",
 				"Blue"
 			],
-			"rare": true,
-			"description": "Note: Attack was increased to make it an acceptable rare card and to demonstrate its sigil effect more clearly."
+			"rare": true
 		},
 		{
 			"name": "Bleene's Mox",
@@ -2726,7 +2730,8 @@
 			"attack": 0,
 			"health": 1,
 			"sigils": [
-				"Reconstitute"
+				"Reconstitute",
+				"Boneless"
 			],
 			"banned": true,
 			"rare":true,
