@@ -478,9 +478,9 @@
 			"sigils": [
 				"Bone King"
 			],
-			"attack": 1,
+			"attack": 2,
 			"health": 1,
-			"blood_cost": 1
+			"blood_cost": 2
 		},
 		{
 			"name": "Raven Egg",
@@ -910,9 +910,10 @@
 				"Tentacle"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"blood_cost": 2,
-			"banned": true
+			"banned": true,
+			"rare":true
 		},
 		{
 			"name": "Hand Tentacle",
@@ -920,9 +921,10 @@
 				"Tentacle"
 			],
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"blood_cost": 1,
-			"banned": true
+			"banned": true,
+			"rare":true
 		},
 		{
 			"name": "Mirror Tentacle",
@@ -930,10 +932,11 @@
 				"Tentacle"
 			],
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"blood_cost": 1,
 			"atkspecial": "mirror",
-			"banned": true
+			"banned": true,
+			"rare":true
 		},
 		{
 			"name": "Raccoon",
@@ -1763,7 +1766,7 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": 4,
+			"bone_cost": 5,
 			"rare": true,
 			"description": "Note: This card was made rare due to it's strength. This card will become a cat after its worthy sacrifice sigil is used.",
 			"evolution": "Cat"
