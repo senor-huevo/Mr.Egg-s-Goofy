@@ -317,7 +317,10 @@
 			"name": "Undead Cat",
 			"attack": 3,
 			"health": 6,
-			"blood_cost": 1,
+			"blood_cost": 2,
+			"sigils":[
+				"Unkillable"
+			],
 			"banned": true
 		},
 		{
@@ -471,7 +474,8 @@
 			"attack": 1,
 			"health": 1,
 			"blood_cost": 1,
-			"conduit":true
+			"conduit":true,
+			"rare": true
 		},
 		{
 			"name": "Rat King",
@@ -489,6 +493,7 @@
 			],
 			"attack": 0,
 			"health": 2,
+			"bone_cost": 3,
 			"evolution": "Raven"
 		},
 		{
@@ -519,8 +524,9 @@
 				"Airborne",
 				"Waterborne"
 			],
+			"blood_cost":1,
 			"attack": 1,
-			"health": 1
+			"health": 2
 		},
 		{
 			"name": "Great Kraken",
@@ -542,7 +548,8 @@
 				"Touch of Death"
 			],
 			"sheds": "Vertebrae",
-			"bone_cost": 4
+			"bone_cost": 4,
+			"rare":true
 		},
 		{
 			"name": "Vertebrae",
@@ -1014,7 +1021,7 @@
 			"Frozen Away"
 		],
 		"attack": 0,
-		"health": 1,
+		"health": 4,
 		"blood_cost": 1,
 		"nosac": true,
 		"nohammer": true,
@@ -1172,6 +1179,7 @@
 			"sigils": [
 				"Battery Bearer"
 			],
+			"energy_cost":1,
 			"attack": 0,
 			"health": 1
 		},
@@ -1254,7 +1262,7 @@
 			"health": 1,
 			"energy_cost": 2,
 			"conduit": true,
-			"description": "Note: Effect was changed to prevent infinitely buffing stim mage."
+			"rare":true
 		},
 		{
 			"name": "Explode Bot",
