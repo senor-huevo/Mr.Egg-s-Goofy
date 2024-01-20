@@ -439,9 +439,9 @@
 			"sigils": [
 				"Airborne"
 			],
-			"attack": 2,
+			"attack": 3,
 			"health": 1,
-			"blood_cost": 1
+			"blood_cost": 2
 		},
 		{			"name": "Hodag",
 		"sigils": [
@@ -493,7 +493,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"bone_cost": 3,
+			"bone_cost": 2,
 			"evolution": "Raven"
 		},
 		{
@@ -643,12 +643,10 @@
 		},
 		{			"name": "Frozen Opossum",
 		"sigils": [
-			"Frozen Away",
-			"Sharp Quills"
+			"Frozen Away"
 		],
 		"attack": 0,
-		"health": 1,
-		"bone_cost": 1,
+		"health": 5,
 		"nosac": true,
 		"evolution": "Opossum",
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_frozenopossum.png",
@@ -734,7 +732,6 @@
 			"attack": 1,
 			"health": 2,
 			"sigils": [
-				"Sharp Quills",
 				"Sharp Quills"
 			],
 			"blood_cost": 1,
@@ -1143,7 +1140,7 @@
 			],
 			"energy_cost": 5,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Claptrap.png",
-			"description":"Card art by syntaxevasion",
+			"description":"Custom card by syntaxevasion",
 			"nosac":true
 		},
 		{
@@ -1293,8 +1290,7 @@
 			"health": 1,
 			"energy_cost": 4,
 			"active": true,
-			"rare":true,
-			"description": "Note: The cost of this ability was increased to 2 energy due to this card being very strong for its cost."
+			"rare":true
 		},
 		{
 			"name": "Gembound Ripper",
@@ -1428,10 +1424,10 @@
 		{
 			"name": "Plasma Jimmy",
 			"sigils": [
-				"Energy Sniper"
+				"Energy Gun"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"energy_cost": 2,
 			"rare": true,
 			"active": true
@@ -1659,7 +1655,7 @@
 				"Depleting"
 			],
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Manager.png",
-			"description":"Card art by syntaxevasion",
+			"description":"Custom card by syntaxevasion",
 			"rare":true
 		},
 		{
@@ -1833,7 +1829,7 @@
 			"bone_cost":10,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gashadokuro.png",
 			"rare":true,
-			"description":"Card art by syntaxevasion"
+			"description":"Custom card by syntaxevasion"
 		},
 		{
 			"name": "Sporedigger",
@@ -1866,7 +1862,7 @@
 			],
 			"bone_cost": 5,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Armor.png",
-			"description":"Card art by syntaxevasion"
+			"description":"Custom card by syntaxevasion"
 		},
 		{
 			"name": "Mummy Lord",
@@ -1919,7 +1915,7 @@
 			],
 			"rare": true,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Grimreaper.png",
-			"description":"Card art by syntaxevasion"
+			"description":"Custom card by syntaxevasion"
 		},
 		{
 			"name": "Sarcophagus",
@@ -2181,7 +2177,7 @@
 				"Bifurcated Strike"
 			],
 			"attack": 2,
-			"health": 4,
+			"health": 2,
 			"mox_cost": [
 				"Green",
 				"Orange"
@@ -2299,7 +2295,7 @@
 				"Rabbit Hole"
 			],
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Magician.png",
-			"description":"Card art by syntaxevasion"
+			"description":"Custom card by syntaxevasion"
 		},
 		{
 			"name": "Orange Mage",
@@ -2427,7 +2423,7 @@
 		{
 			"name": "Dragon Egg",
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"sigils": [
 				"Fledgling 2"
 			],
@@ -2458,7 +2454,7 @@
 				"Stinky"
 			],
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"description": "Custom card by FishGuy101"
 		},
 		{
@@ -2483,7 +2479,7 @@
 				"Sprinter"
 			],
 			"attack": 2,
-			"health": 3,
+			"health": 2,
 			"description": "How hungry?\n\nCustom card by ener"
 		},
 		{
