@@ -1218,7 +1218,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2,
+			"energy_cost": 3,
 			"conduit": true
 		},
 		{
