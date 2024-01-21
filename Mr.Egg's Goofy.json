@@ -1684,13 +1684,26 @@
 		{
 			"name": "Draugr",
 			"sigils": [
-				"Frozen Away",
-				"Sharp Quills"
+				"Frozen Away"
 			],
 			"attack": 0,
 			"health": 1,
+			"bone_cost": 3,
 			"nosac": true,
-			"evolution": "Skeleton"
+			"evolution": "Defrosted Draugr"
+		},
+		{
+			"name": "Defrosted Draugr",
+			"attack": 1,
+			"health": 1,
+			"sigils": [
+				"Brittle",
+				"Double Strike"
+			],
+			"bone_cost":3,
+			"banned":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_DDraugr.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Banshee",
@@ -1938,6 +1951,18 @@
 			"banned": true
 		},
 		{
+			"name": "Skeleton Archer",
+			"attack": 1,
+			"health": 2,
+			"bone_cost": 1,
+			"sigils": [
+				"Brittle",
+				"Sniper"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_BoneArcher.png",
+			"description": "Card art by syntaxevasion"
+		},
+		{
 			"name": "Exeskeleton",
 			"sigils": [
 				"Brittle"
@@ -2007,6 +2032,18 @@
 			"description": "Custom card by SYNTHIA_2000"
 		},
 		{
+			"name": "Funayurei",
+			"bone_cost": 2,
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Blood Lust",
+				"Waterborne"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Funayurei.png",
+			"description":"Custom card by syntaxevasion"
+		},
+		{
 			"name": "Gargoyle",
 			"attack": 1,
 			"health": 4,
@@ -2027,6 +2064,30 @@
 				"Looter"
 			],
 			"bone_cost": 6
+		},
+		{
+			"name": "Cutpurse",
+			"attack": 1,
+			"health": 1,
+			"bone_cost": 3,
+			"sigils":[
+				"Brittle",
+				"Side Hustle"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_cutpurse.png",
+			"description": "Card art by syntaxevasion"
+		},
+		{
+			"name": "Undead Hydra",
+			"attack": 1,
+			"health": 1,
+			"bone_cost": 2,
+			"sigils":[
+				"Bifurcated Strike",
+				"Brittle"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_BoneHydra.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Zombie Parrot",
