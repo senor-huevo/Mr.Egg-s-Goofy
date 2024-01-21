@@ -2484,7 +2484,7 @@
 		{
 			"name": "Dragon Egg",
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"sigils": [
 				"Fledgling 2"
 			],
