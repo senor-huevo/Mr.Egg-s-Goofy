@@ -106,13 +106,12 @@
 		},
 		{
 			"name":"Tahnee",
-			"attack": 3,
+			"attack": 0,
 			"health":1,
 			"sigils":[
 				"Trifurcated Strike"
 			],
 			"rare":true,
-			"blood_cost":4,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_david.png",
 			"description":"Card art by syntaxevasion"
 		},
@@ -317,7 +316,7 @@
 			"name": "Undead Cat",
 			"attack": 3,
 			"health": 6,
-			"blood_cost": 2,
+			"blood_cost": 3,
 			"sigils":[
 				"Unkillable"
 			],
@@ -672,10 +671,9 @@
 		{
 			"name": "Skunk",
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"sigils": [
-				"Stinky",
-				"Guardian"
+				"Stinky"
 			],
 			"description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
 		},
@@ -1564,8 +1562,8 @@
 		{
 			"name": "Sniper Bot",
 			"attack": 1,
-			"health": 1,
-			"energy_cost": 2,
+			"health": 2,
+			"energy_cost": 3,
 			"sigils":[
 				"Sniper"
 			]
@@ -1954,7 +1952,7 @@
 			"name": "Skeleton Archer",
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 1,
+			"bone_cost": 2,
 			"sigils": [
 				"Brittle",
 				"Sniper"
