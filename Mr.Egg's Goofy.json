@@ -1361,9 +1361,9 @@
 			"sigils": [
 				"Mighty Leap"
 			],
-			"attack": 1,
+			"attack": 0,
 			"health": 2,
-			"energy_cost": 3
+			"energy_cost": 1
 		},
 		{
 			"name": "M3atB0t",
@@ -1488,7 +1488,7 @@
 		],
 		"attack": 1,
 		"health": 1,
-		"energy_cost": 2,
+		"energy_cost": 3,
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_shieldbot.png",
 		"description":"Card art by syntaxevasion"
 	    },
@@ -2232,10 +2232,10 @@
 		{
 			"name": "Master Goranj",
 			"sigils": [
-				"Gem Dependant",
-				"Bifurcated Strike"
+				"Bifurcated Strike",
+				"Blood Lust"
 			],
-			"attack": 2,
+			"attack": 1,
 			"health": 2,
 			"mox_cost": [
 				"Green",
