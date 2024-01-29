@@ -2109,6 +2109,20 @@
 			"active": true
 		},
 		{
+			"name": "Apothecary",
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Touch of Death",
+				"Gem Dependant"
+			],
+			"mox_cost":[
+				"Orange"
+			],
+			"description": "Card art by syntaxevasion",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Apothecary.png"
+		},
+		{
 			"name": "Blue Mage",
 			"sigils": [
 				"Mental Gemnastics"
