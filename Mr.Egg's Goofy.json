@@ -397,7 +397,7 @@
 			],
 			"attack": 1,
 			"health": 2,
-			"blood_cost": 1,
+			"bone_cost":3,
 			"evolution": "Elk"
 		},
 		{
@@ -592,7 +592,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"blood_cost": 1,
+			"blood_cost": 2,
 			"rare": true
 		},
 		{
@@ -680,6 +680,9 @@
 			"name": "Coyote",
 			"attack": 2,
 			"health": 1,
+			"sigils":[
+				"Scavenger"
+			],
 			"bone_cost": 3
 		},
 		{
@@ -749,6 +752,9 @@
 			"name": "Rattler",
 			"attack": 3,
 			"health": 1,
+			"sigils": [
+				"Touch of Death"
+			],
 			"bone_cost": 5,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
@@ -1112,7 +1118,7 @@
 		{
 			"name": "Mole Seaman",
 			"attack": 1,
-			"health": 9,
+			"health": 8,
 			"blood_cost": 2,
 			"sigils": [
 				"Mighty Leap",
@@ -1155,7 +1161,7 @@
 				"Annoying",
 				"Leader"
 			],
-			"energy_cost":5,
+			"energy_cost": 6,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_annoyfm.png",
 			"description": "Card art by syntaxevasion"
 		},
@@ -1402,10 +1408,10 @@
 				"Omni Strike"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"rare": true,
 			"description": "Custom card by EternalHours and syntaxevasion.\nLong overdue.",
-			"energy_cost": 6
+			"energy_cost": 5
 		},
 		{
 			"name": "Null Conduit",
@@ -1487,7 +1493,7 @@
 		],
 		"attack": 1,
 		"health": 1,
-		"energy_cost": 3,
+		"energy_cost": 2,
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_shieldbot.png",
 		"description":"Card art by syntaxevasion"
 	    },
@@ -1934,7 +1940,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"bone_cost": 3,
+			"bone_cost": 2,
 			"evolution": "Mummy Lord",
 			"nosac":true
 		},
@@ -2495,7 +2501,7 @@
 		{
 			"name": "Dragon Egg",
 			"attack": 0,
-			"health": 2,
+			"health": 3,
 			"sigils": [
 				"Fledgling 2"
 			],
@@ -2508,8 +2514,9 @@
 		{
 			"name": "Ruby Dragon",
 			"attack": 2,
-			"health": 3,
+			"health": 4,
 			"sigils": [
+				"Airborne",
 				"Bifurcated Strike"
 			],
 			"mox_cost": [
@@ -3088,5 +3095,6 @@
 			],
 			"count":2
 		}
+		
 	}
 }
