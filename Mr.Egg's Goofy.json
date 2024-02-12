@@ -670,7 +670,7 @@
 		{
 			"name": "Skunk",
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"sigils": [
 				"Stinky"
 			],
@@ -680,9 +680,6 @@
 			"name": "Coyote",
 			"attack": 2,
 			"health": 1,
-			"sigils":[
-				"Scavenger"
-			],
 			"bone_cost": 3
 		},
 		{
@@ -948,7 +945,7 @@
 		{
 			"name": "Raccoon",
 			"attack": 1,
-			"health": 3,
+			"health": 1,
 			"sigils": [
 				"Scavenger"
 			],
@@ -977,7 +974,7 @@
 				"Squirrel Shedder"
 			],
 			"attack": 0,
-			"health": 2
+			"health": 1
 		},
 		{
 			"name": "Stoat",
@@ -2103,6 +2100,17 @@
 			]
 		},
 		{
+    		"name": "Voodoo Doll",
+    		"attack": 0,
+    		"health": 1,
+    		"bone_cost": 2,
+    		"sigils": [
+        		"Acupuncture"
+    		],
+    		"active": true,
+    		"description": "Custom card by ener. Art by syntaxevasion"
+		},
+		{
 			"name": "Gourmage",
 			"sigils": [
 				"Enlarge"
@@ -2373,7 +2381,23 @@
 				"Rabbit Hole"
 			],
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Magician.png",
-			"description":"Custom card by syntaxevasion"
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Gnome",
+			"attack":1,
+			"health":1,
+			"sigils":[
+				"Sprinter"
+			],
+			"sheds":"Gnome",
+			"description":"Card art by syntaxevasion",
+			"mox_cost":[
+				"Blue"
+			],
+			"rare":true,
+			"nosac":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gnome.png"
 		},
 		{
 			"name": "Orange Mage",
