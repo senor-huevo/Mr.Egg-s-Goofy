@@ -1951,6 +1951,17 @@
 			"banned": true
 		},
 		{
+			"name": "Skeleton Army",
+			"bone_cost": 5,
+			"attack": 2,
+			"health": 2,
+			"sigils":[
+				"Skeleton Crew"
+			],
+			"description":"Custom card by syntaxevasion",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Skarmy.png"
+		},
+		{
 			"name": "Skeleton Archer",
 			"attack": 1,
 			"health": 1,
