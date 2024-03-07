@@ -248,8 +248,9 @@
 				"Bees Within",
 				"Mighty Leap"
 			],
+			"blood_cost": 1,
 			"attack": 0,
-			"health": 2
+			"health": 3
 		},
 		{
 			"name": "Black Goat",
@@ -328,7 +329,7 @@
 			"sigils": [
 				"Unkillable"
 			],
-			"bone_cost": 3,
+			"bone_cost": 4,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
 		{
@@ -601,7 +602,8 @@
 				"Burrower"
 			],
 			"attack": 0,
-			"health": 4
+			"health": 5,
+			"blood_cost": 1
 		},
 		{
 			"name": "Mole Man",
@@ -979,7 +981,7 @@
 		{
 			"name": "Stoat",
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"blood_cost": 1,
 			"sigils": [
 				"Unkillable"
@@ -1114,7 +1116,7 @@
 		},
 		{
 			"name": "Mole Seaman",
-			"attack": 1,
+			"attack": 0,
 			"health": 8,
 			"blood_cost": 2,
 			"sigils": [
@@ -1771,7 +1773,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 4,
+			"bone_cost": 5,
 			"description": "Note: Was made common due to lack of use.\nThen rare again.",
 			"rare": true
 		},
@@ -1937,7 +1939,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"bone_cost": 2,
+			"bone_cost": 3,
 			"evolution": "Mummy Lord",
 			"nosac":true
 		},
@@ -1993,7 +1995,7 @@
 			],
 			"attack": 4,
 			"health": 1,
-			"bone_cost": 3,
+			"bone_cost": 4,
 			"description": "A plague is once again released upon this earth."
 		},
 		{
@@ -2178,7 +2180,7 @@
 				"Airborne"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"mox_cost": [
 				"Blue"
 			]
@@ -2530,7 +2532,7 @@
 			"mox_cost": [
 				"Blue"
 			],
-			"bone_cost": 2,
+			"bone_cost": 3,
 			"description": "Custom card by FishGuy101"
 		},
 		{
@@ -2617,7 +2619,7 @@
 				"Blue"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"sigils": [
 				"Sharp Quills",
 				"Sprinter"
@@ -2693,7 +2695,7 @@
 		{
 			"name": "Ruby Vessel",
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
@@ -2706,7 +2708,7 @@
 		{
 			"name": "Sapphire Vessel",
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
@@ -2719,7 +2721,7 @@
 		{
 			"name": "Emerald Vessel",
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
