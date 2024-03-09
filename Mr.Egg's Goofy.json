@@ -2,16 +2,16 @@
 	"ruleset": "Mr.Egg's Goofy",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
-	"deck_size_min": 25,
-	"max_commons_main": 3,
+	"deck_size_min": 30,
+	"max_commons_main": 2,
 	"max_commons_side": 4,
-	"num_candles": 2,
+	"num_candles": 3,
 	"variable_attack_nerf": false,
 	"allow_snuffing_candles": true,
 	"opt_actives": false,
 	"enable_backrow": false,
-	"portrait": "pixport/Raven Egg",
-	"description": "Balanced by Mr.Egg and every whim he has.\n25 cards in main deck.",
+	"portrait": "portraits/Egg",
+	"description": "Balanced by Mr.Egg and every whim he has.\n3 Candles.\n30 cards in main deck.\n2 of each common in main deck.\n4 of each common in side deck.",
 	"cards": [
 		{
 			"name": "Starvation",
@@ -131,7 +131,7 @@
 		{
 			"name": "Kaminski",
 			"sigils": [
-				"Burrower",
+				"Guardian",
 				"Sharp Quills"
 			],
 			"attack": 1,
@@ -916,7 +916,7 @@
 				"Tentacle"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"blood_cost": 2,
 			"banned": true,
 			"rare":true
@@ -927,7 +927,7 @@
 				"Tentacle"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"blood_cost": 1,
 			"banned": true,
 			"rare":true
@@ -938,7 +938,7 @@
 				"Tentacle"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"blood_cost": 1,
 			"atkspecial": "mirror",
 			"banned": true,
@@ -976,7 +976,8 @@
 				"Squirrel Shedder"
 			],
 			"attack": 0,
-			"health": 1
+			"health": 2,
+			"blood_cost": 1
 		},
 		{
 			"name": "Stoat",
@@ -1171,7 +1172,7 @@
 			],
 			"attack": 2,
 			"health": 1,
-			"energy_cost": 2
+			"energy_cost": 3
 		},
 		{
 			"name": "Energy Bot",
@@ -1471,7 +1472,7 @@
 				"Sentry"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"energy_cost":1,
 			"description": "Note: The sentry sigil now triggers when this card is pushed by another card."
 		},
@@ -1781,14 +1782,12 @@
 			"name": "Pharaoh's Pets",
 			"sigils": [
 				"Worthy Sacrifice",
-				"Frozen Away"
+				"Many Lives"
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": 5,
-			"rare": true,
-			"description": "Note: This card was made rare due to it's strength. This card will become a cat after its worthy sacrifice sigil is used.",
-			"evolution": "Cat"
+			"bone_cost": 10,
+			"rare": true
 		},
 		{
 			"name": "Drowned Soul",
@@ -2158,8 +2157,7 @@
 			"health": 1,
 			"mox_cost": [
 				"Blue"
-			],
-			"rare": true
+			]
 		},
 		{
 			"name": "Blue Sporemage",
@@ -2247,10 +2245,11 @@
 		{
 			"name": "Mage Knight",
 			"sigils": [
-				"Guardian"
+				"Blood Lust",
+				"Gem Dependant"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"mox_cost": [
 				"Orange"
 			]
@@ -2378,7 +2377,7 @@
 				"Hefty"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"mox_cost": [
 				"Green"
 			]
@@ -2749,7 +2748,7 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 1,
+			"energy_cost": 2,
 			"nosac": true,
 			"banned": true
 		},
