@@ -1184,6 +1184,17 @@
 			"health": 1
 		},
 		{
+			"name": "B33",
+			"attack": 1,
+			"health": 1,
+			"energy_cost": 1,
+			"sigils":[
+				"Airborne"
+			],
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_B33.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name":"Billdozer",
 			"attack": 0,
 			"health": 2,
@@ -1542,6 +1553,26 @@
 			"banned": true
 		},
 		{
+			"name": "Real Mole",
+			"energy_cost": 2,
+			"attack": 0,
+			"health": 3,
+			"sigils":[
+				"Burrower"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_RMole.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Real Mummy Lord",
+			"attack":3,
+			"health":3,
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_RMummyLord.png",
+			"energy_cost": 6,
+			"rare": true,
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Mrs. Bomb",
 			"sigils": [
 				"Bomb Spewer"
@@ -1660,6 +1691,18 @@
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Manager.png",
 			"description":"Custom card by syntaxevasion",
 			"rare":true
+		},
+		{
+			"name": "The Dau2",
+			"attack":2,
+			"health": 2,
+			"energy_cost": 5,
+			"sigils":[
+				"Bellist"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Dau2.png",
+			"description":"Card art by syntaxevasion",
+			"rare": true
 		},
 		{
 			"name": "Thick",
