@@ -672,7 +672,8 @@
 		{
 			"name": "Skunk",
 			"attack": 0,
-			"health": 2,
+			"health": 3,
+			"bone_cost": 2,
 			"sigils": [
 				"Stinky"
 			],
@@ -751,9 +752,6 @@
 			"name": "Rattler",
 			"attack": 3,
 			"health": 1,
-			"sigils": [
-				"Touch of Death"
-			],
 			"bone_cost": 5,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
@@ -1117,7 +1115,7 @@
 		},
 		{
 			"name": "Mole Seaman",
-			"attack": 0,
+			"attack": 1,
 			"health": 8,
 			"blood_cost": 2,
 			"sigils": [
@@ -1198,6 +1196,7 @@
 			"name":"Billdozer",
 			"attack": 0,
 			"health": 2,
+			"energy_cost":1,
 			"sigils":[
 				"Hefty"
 			],
@@ -1248,6 +1247,7 @@
 			"name": "Buoy",
 			"attack": 0,
 			"health": 1,
+			"energy_cost": 1,
 			"sigils":[
 				"Waterborne"
 			],
@@ -1873,8 +1873,9 @@
 			"sigils": [
 				"Bone Digger"
 			],
+			"bone_cost": 1,
 			"attack": 0,
-			"health": 3
+			"health": 4
 		},
 		{
 			"name":"Gashadokuro",
@@ -1947,7 +1948,7 @@
 			],
 			"attack": 1,
 			"health": 2,
-			"bone_cost": 4,
+			"bone_cost": 3,
 			"rare": true,
 			"description": "This was the most annoying card to program."
 		},
@@ -2037,7 +2038,7 @@
 			],
 			"attack": 4,
 			"health": 1,
-			"bone_cost": 4,
+			"bone_cost": 3,
 			"description": "A plague is once again released upon this earth."
 		},
 		{
@@ -2163,7 +2164,7 @@
         		"Acupuncture"
     		],
     		"active": true,
-    		"description": "Custom card by ener. Art by syntaxevasion"
+    		"description": "Custom card by ener"
 		},
 		{
 			"name": "Gourmage",
@@ -2580,7 +2581,7 @@
 		{
 			"name": "Dragon Egg",
 			"attack": 0,
-			"health": 3,
+			"health": 2,
 			"sigils": [
 				"Fledgling 2"
 			],
@@ -2593,7 +2594,7 @@
 		{
 			"name": "Ruby Dragon",
 			"attack": 2,
-			"health": 4,
+			"health": 3,
 			"sigils": [
 				"Airborne",
 				"Bifurcated Strike"
