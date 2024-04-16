@@ -476,6 +476,18 @@
 			"description":"Card art by syntaxevasion"
 		},
 		{
+			"name": "Pack Rat",
+			"attack": 2,
+			"health": 2,
+			"blood_cost": 2,
+			"sigils":[
+				"Trinket Bearer"
+			],
+			"rare": true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_packrat.png",
+			"description":"Card and sigil art by syntaxevasion"
+		},
+		{
 			"name": "Hrokkall",
 			"sigils": [
 				"Waterborne",
@@ -3187,5 +3199,13 @@
 			"count":2
 		}
 		
-	}
+	},
+"custom_sigils": {
+"Trinket Bearer": {
+	"description":"When this card is played, you may draw 1 card from main deck.",
+	"author": "Mr.Egg",
+	"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Trinket_Bearer%20.gd",
+	"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_randomconsumable.png"
+			   }
+}
 }
