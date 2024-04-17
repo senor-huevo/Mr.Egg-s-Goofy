@@ -2,7 +2,7 @@
 	"ruleset": "Mr.Egg's Goofy",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
-	"deck_size_min": 30,
+	"deck_size_min": 1,
 	"max_commons_main": 2,
 	"max_commons_side": 4,
 	"num_candles": 3,
@@ -2079,6 +2079,19 @@
 			"description":"Card art by syntaxevasion"
 		},
 		{
+			"name": "Mausoleum",
+			"bone_cost": 2,
+			"attack": 0,
+			"health": 4,
+			"sigils": [
+				"Skeletons Within",
+				"Made of Stone"
+			],
+			"description":"Custom card by syntaxevasion",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Mausoleum.png",
+			"nosac":true
+		},
+		{
 			"name": "Tomb Robber",
 			"sigils": [
 				"Disentomb (Corpses)"
@@ -3206,6 +3219,12 @@
 	"author": "Mr.Egg",
 	"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Trinket_Bearer%20.gd",
 	"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_randomconsumable.png"
-			   }
+			   },
+"Skeletons Within":{
+	"description":"When this creature is damaged, a Skeleton is created in the owner's hand.",
+	"author":"Mr.Egg",
+	"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/SkeletonsWithin.gd",
+	"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Skeletons%20within.png"
+}
 }
 }
