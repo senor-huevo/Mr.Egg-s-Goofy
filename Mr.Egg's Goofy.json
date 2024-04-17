@@ -2,7 +2,7 @@
 	"ruleset": "Mr.Egg's Goofy",
 	"hammers_per_turn": 1,
 	"ant_limit": 2,
-	"deck_size_min": 1,
+	"deck_size_min": 30,
 	"max_commons_main": 2,
 	"max_commons_side": 4,
 	"num_candles": 3,
@@ -1415,6 +1415,17 @@
 			"attack": 0,
 			"health": 2,
 			"energy_cost": 1
+		},
+		{
+			"name": "Librarian",
+			"energy_cost": 2,
+			"attack": 1,
+			"health": 3, 
+			"sigils": [
+				"Dead Byte"
+			],
+			"description": "Card and sigil art by syntaxevasion.\n rework by Eternalhours.\n sigil coding by Masxe.",
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_librarian.png"
 		},
 		{
 			"name": "M3atB0t",
@@ -3227,7 +3238,7 @@
 	},
 "custom_sigils": {
 "Trinket Bearer": {
-	"description":"When this card is played, you may draw 1 card from main deck.",
+	"description":"When this card is played, you draw 1 card from main deck.",
 	"author": "Mr.Egg",
 	"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Trinket_Bearer%20.gd",
 	"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_randomconsumable.png"
@@ -3239,11 +3250,16 @@
 	"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Skeletons%20within.png"
 },
 	"Gift Bearer":{
-		"description": "When this creature perishes, you may draw 1 card from main deck.",
+		"description": "When this creature perishes, you draw 1 card from main deck.",
 		"author":"Mr.Egg",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Gift%20Bearer.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_drawrandomcardondeath.png"
+	},
+		"Dead Byte":{
+		"description": "When this creature perishes, the owner takes 1 damage.",
+		"author": "Masxe",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Masxeverse_Grudgeful(1).gd",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_filesizedamage.png"
+		}
 	}
-
-}
 }
