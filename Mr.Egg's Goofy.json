@@ -409,7 +409,7 @@
 			],
 			"attack": 1,
 			"health": 2,
-			"bone_cost":3,
+			"blood_cost": 1,
 			"evolution": "Elk"
 		},
 		{
@@ -1373,6 +1373,18 @@
 			"energy_cost": 3,
 			"evolution": "GR1ZZ",
 			"banned": true
+		},
+		{
+			"name": "Gift Bot",
+			"attack":0,
+			"health":2,
+			"sigils":[
+			"Gift Bearer"
+			],
+			"energy_cost": 4,
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_giftbot.png",
+			"description":"Card and sigil art by syntaxevasion"
+
 		},
 		{
 			"name": "Insectodrone",
@@ -3225,6 +3237,13 @@
 	"author":"Mr.Egg",
 	"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/SkeletonsWithin.gd",
 	"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Skeletons%20within.png"
-}
+},
+	"Gift Bearer":{
+		"description": "When this creature perishes, you may draw 1 card from main deck.",
+		"author":"Mr.Egg",
+		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Gift%20Bearer.gd",
+		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_drawrandomcardondeath.png"
+	}
+
 }
 }
