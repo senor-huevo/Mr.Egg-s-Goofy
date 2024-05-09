@@ -820,7 +820,7 @@
 		{
 			"name": "Sparrow",
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"sigils": [
 				"Airborne",
 				"Fecundity (Kaycee)"
@@ -1013,7 +1013,7 @@
 		{
 			"name": "Vanilla Stoat",
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"sigils":[
 				"Fecundity (Kaycee)"
 			],
@@ -1083,7 +1083,7 @@
 				"Side Hustle"
 			],
 			"attack": 1,
-			"health":3,
+			"health": 2,
 			"blood_cost": 2,
 			"description": "Custom card by FishGuy101.\nCard and sigil art by syntaxevasion"
 		},
@@ -1394,7 +1394,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"energy_cost": 3
+			"energy_cost": 4
 		},
 		{
 			"name": "Junkbot",
@@ -1550,7 +1550,7 @@
 		],
 		"attack": 1,
 		"health": 1,
-		"energy_cost": 2,
+		"energy_cost": 3,
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_shieldbot.png",
 		"description":"Card art by syntaxevasion"
 	    },
@@ -1644,7 +1644,7 @@
 		{
 			"name": "Sniper Bot",
 			"attack": 1,
-			"health": 2,
+			"health": 1,
 			"energy_cost": 3,
 			"sigils":[
 				"Sniper"
@@ -1921,7 +1921,7 @@
 			],
 			"bone_cost": 1,
 			"attack": 0,
-			"health": 4
+			"health": 3
 		},
 		{
 			"name":"Gashadokuro",
@@ -1964,7 +1964,7 @@
 			"sigils":[
 				"Armored"
 			],
-			"bone_cost": 5,
+			"bone_cost": 6,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Armor.png",
 			"description":"Custom card by syntaxevasion"
 		},
@@ -2043,7 +2043,7 @@
 		},
 		{
 			"name": "Skeleton Army",
-			"bone_cost": 5,
+			"bone_cost": 6,
 			"attack": 2,
 			"health": 2,
 			"sigils":[
