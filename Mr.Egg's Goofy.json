@@ -108,6 +108,7 @@
 			"name":"Tahnee",
 			"attack": 0,
 			"health":1,
+			"bone_cost":1,
 			"sigils":[
 				"Trifurcated Strike"
 			],
@@ -149,6 +150,7 @@
 			],
 			"attack": 1,
 			"health": 1,
+			"bone_cost":2,
 			"rare": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_louis.png",
 			"description":"Card art by syntaxevasion"
@@ -227,6 +229,7 @@
 			"name": "Dam",
 			"attack": 0,
 			"health": 2,
+			"bone_cost": 2,
 			"sigils": [
 				"Mighty Leap"
 			],
@@ -298,7 +301,7 @@
 				"Fledgling"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"evolution": "Bullfrog",
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_tadpole.png"
 		},
@@ -366,6 +369,7 @@
 			"name": "Chime",
 			"attack": 0,
 			"health": 1,
+			"bone_cost": 1,
 			"sigils": [
 				"Mighty Leap"
 			],
@@ -467,6 +471,7 @@
 			"name":"Pack Mule",
 			"attack": 0,
 			"health": 5,
+			"blood_cost": 1,
 			"sigils":[
 				"Sprinter",
 				"Vessel Printer"
@@ -534,6 +539,7 @@
 			"name": "Ring Worm",
 			"attack": 0,
 			"health": 1,
+			"bone_cost":1,
 			"sigils":[
 				"Touch of Death"
 			],
@@ -577,6 +583,7 @@
 			"name": "Vertebrae",
 			"attack": 0,
 			"health": 1,
+			"bone_cost":1,
 			"banned": true
 		},
 		{
@@ -1305,8 +1312,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"energy_cost": 2,
-			"nosac": true
+			"energy_cost": 2
 		},
 		{
 			"name": "Factory Conduit",
@@ -1359,8 +1365,8 @@
 				"Transformer"
 			],
 			"attack": 0,
-			"health": 4,
-			"energy_cost": 3,
+			"health": 6,
+			"energy_cost": 6,
 			"evolution": "GR1ZZ (beast)"
 		},
 		{
@@ -1369,8 +1375,8 @@
 				"Transformer"
 			],
 			"attack": 4,
-			"health": 4,
-			"energy_cost": 3,
+			"health": 6,
+			"energy_cost": 6,
 			"evolution": "GR1ZZ",
 			"banned": true
 		},
@@ -1582,8 +1588,8 @@
 				"Transformer"
 			],
 			"attack": 1,
-			"health": 2,
-			"energy_cost": 3,
+			"health": 1,
+			"energy_cost": 2,
 			"evolution": "SON1A (beast)"
 		},
 		{
@@ -1593,8 +1599,8 @@
 				"Airborne"
 			],
 			"attack": 2,
-			"health": 2,
-			"energy_cost": 3,
+			"health": 1,
+			"energy_cost": 2,
 			"evolution": "SON1A",
 			"banned": true
 		},
@@ -1626,7 +1632,6 @@
 			"attack": 1,
 			"health": 2,
 			"energy_cost": 3,
-			"nosac":true,
 			"rare": true
 		},
 		{
@@ -1691,7 +1696,7 @@
 			"sigils": [
 				"Sentry"
 			],
-			"energy_cost": 2,
+			"energy_cost": 3,
 			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gunbot.png",
 			"description":"Card art by syntaxevasion"
 		},
@@ -1754,12 +1759,14 @@
 			"name": "Thick",
 			"attack": 1,
 			"health": 3,
+			"energy_cost": 3,
 			"banned": true
 		},
 		{
 			"name": "Droid",
 			"attack": 1,
 			"health": 3,
+			"energy_cost": 3,
 			"banned": true
 		},
 		{
@@ -1803,8 +1810,8 @@
 				"Airborne"
 			],
 			"attack": 1,
-			"health": 3,
-			"bone_cost": 3
+			"health": 1,
+			"bone_cost": 1
 		},
 		{
 			"name": "Bonehound",
