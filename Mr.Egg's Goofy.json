@@ -1789,7 +1789,8 @@
 			"health": 1,
 			"bone_cost": 3,
 			"nosac": true,
-			"evolution": "Defrosted Draugr"
+			"evolution": "Defrosted Draugr",
+			"banned":true
 		},
 		{
 			"name": "Defrosted Draugr",
@@ -2050,8 +2051,8 @@
 		},
 		{
 			"name": "Skeleton Army",
-			"bone_cost": 6,
-			"attack": 2,
+			"bone_cost": 4,
+			"attack": 1,
 			"health": 2,
 			"sigils":[
 				"Skeleton Crew"
