@@ -984,7 +984,7 @@
 		{
 			"name": "Squirrel",
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"banned": true
 		},
 		{
@@ -993,7 +993,7 @@
 				"Waterborne"
 			],
 			"attack": 0,
-			"health": 2,
+			"health": 1,
 			"banned": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_aquasquirrel.png",
 			"description":"Card art by syntaxevasion"
@@ -1642,7 +1642,7 @@
 			],
 			"attack": 1,
 			"health": 1,
-			"energy_cost": 4,
+			"energy_cost": 5,
 			"rare": true,
 			"description": "Note: The sentry sigil now triggers when this card is pushed by another card."
 		},
