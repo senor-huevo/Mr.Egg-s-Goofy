@@ -356,6 +356,26 @@
 			"bone_cost": 4
 		},
 		{
+			"name": "Cuckoo",
+			"blood_cost":1,
+			"attack":1,
+			"health":1,
+			"sigils":[
+				"Airborne",
+				"Brood Parasite"
+			],
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/pixport_cuckoo.png"
+		},
+		{
+			"name": "Broken Egg",
+			"bone_cost":2,
+			"attack":0,
+			"health":1,
+			"banned":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_brokenegg.png",
+			"description": "Card art by syntaxevasion"
+		},
+		{
 			"name": "The Daus",
 			"sigils": [
 				"Bellist"
@@ -3024,9 +3044,11 @@
 		"Bonehorn (1)": "Pay 1 energy to gain 1 bone.",
 		"Boneless": "When a card bearing this sigil dies, no bones are awarded.",
 		"Brittle": "After attacking, a card bearing this sigil perishes.",
+		"Brood Parasite": "When this card is played, a Broken Egg is created in the opposing empty space.",
 		"Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
 		"Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
 		"Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
+		"Dead Byte": "When this creature perishes, the owner takes 1 damage.",
 		"Depleting": "When a card bearing this sigil is played, 2 energy cells are removed from its owner",
 		"Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
 		"Detonator (5)": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 5 damage.",
@@ -3047,6 +3069,7 @@
 		"Gem Dependant": "If a card bearing this sigil's owner controls no mox cards, a card bearing this sigil perishes.",
 		"Gem Detonator (5)": "When Mox cards on the owner's side of the board die, they Detonate (the creature opposing them, as well as adjacent friendly creatures, are dealt 5 damage).",
 		"Gem Guardian": "When a card bearing this sigil is played, all Moxa cards on the owners' side of the board gain Nano Armor.",
+		"Gift Bearer": "When this creature perishes, you draw 1 card from main deck.",
 		"Great Mox": "While a card bearing this sigil is on the board, it provides a green, orange, and blue gem to its owner.",
 		"Green Mox": "While a card bearing this sigil is on the board, it provides a green gem to its owner.",
 		"Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
@@ -3076,6 +3099,7 @@
 		"Side Hustle": "When a card bearing this sigil deals damage directly, draw a card from your side deck for each damage dealt.",
 		"Skeleton Crew": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a skeleton in its old space.",
 		"Skeleton Crew (Yarr)": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a pirate skeleton in its old space.",
+		"Skeletons Within": "When this creature is damaged, a Skeleton is created in the owner's hand.",
 		"Spawn Conduit": "Empty spaces within a circuit completed by a card bearing this sigil spawn L33pB0ts at the end of the owner's turn.",
 		"Sprinter": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil.",
 		"Squirrel Shedder": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a squirrel in their old space.",
@@ -3087,6 +3111,7 @@
 		"Touch of Death": "When a card bearing this sigil damages another creature, that creature perishes.",
 		"Transformer": "At the beginning of your turn a card bearing this sigil will transform to, or from, Beast mode.",
 		"Trifurcated Strike": "A card bearing this sigil will strike each opposing space to the left, right, and center of it.",
+		"Trinket Bearer": "When this card is played, you draw 1 card from main deck.",
 		"True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
 		"Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
 		"Vessel Printer": "Once a card bearing this sigil is struck, draw a card from your side deck.",
@@ -3268,6 +3293,16 @@
 		"author": "Masxe",
 		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Masxeverse_Grudgeful(1).gd",
 		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_filesizedamage.png"
+		
+	},
+	
+		"Brood Parasite":{
+		"description": "When this card is played, a Broken Egg is created in the opposing empty space.",
+		"author":"Mr.Egg",
+		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Brood%20Parasite.gd",
+		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/pixelability_createegg.png"
 		}
 	}
+
+	
 }
