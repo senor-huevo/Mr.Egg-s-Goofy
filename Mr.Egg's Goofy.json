@@ -372,6 +372,7 @@
 			"attack":0,
 			"health":1,
 			"banned":true,
+			"nosac": true,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_brokenegg.png",
 			"description": "Card art by syntaxevasion"
 		},
