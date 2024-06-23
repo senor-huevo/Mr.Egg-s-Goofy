@@ -1346,6 +1346,58 @@
 			"conduit": true
 		},
 		{
+			"name": "Fishbot",
+			"energy_cost": 3,
+			"attack": 1,
+			"health": 3,
+			"sigils":[
+				"Catch of the Day"
+			],
+			"rare": true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_talkfish.png",
+			"description":"Card and sigil art by syntaxevasion"
+		},
+		{
+			"name": "Bad Fish",
+			"energy_cost": 1,
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Annoying",
+				"Brittle"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_BadFish.png",
+			"description": "Card art by syntaxevasion",
+			"banned":true
+		},
+		{
+			"name": "More Fish",
+			"energy_cost": 3,
+			"attack": 0,
+			"health": 1,
+			"sigils":[
+			"Gift Bearer"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_MoreFish.png",
+			"description":"Card art by syntaxevasion",
+			"banned":true
+		},
+		{
+			"name": "Good Fish",
+			"energy_cost": 6,
+			"attack": 2,
+			"health": 2,
+			"sigils":[
+				"Sentry",
+				"Sharp Quills",
+				"Sniper"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_GoodFish.png",
+			"description":"Card art by syntaxevasion",
+			"rare":true,
+			"banned":true
+		},
+		{
 			"name": "Gamblobot",
 			"sigils": [
 				"Power Dice"
@@ -3047,6 +3099,7 @@
 		"Brittle": "After attacking, a card bearing this sigil perishes.",
 		"Brood Parasite": "When this card is played, a Broken Egg is created in the opposing empty space.",
 		"Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
+		"Catch of the Day": "When this creature perishes, a random Robofish is created in the owner's hand",
 		"Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
 		"Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
 		"Dead Byte": "When this creature perishes, the owner takes 1 damage.",
@@ -3294,16 +3347,18 @@
 		"author": "Masxe",
 		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Masxeverse_Grudgeful(1).gd",
 		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_filesizedamage.png"
-		
 	},
-	
 		"Brood Parasite":{
 		"description": "When this card is played, a Broken Egg is created in the opposing empty space.",
 		"author":"Mr.Egg",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Brood%20Parasite.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/pixelability_createegg.png"
-		}
+	},
+		"Catch of the Day":{
+		"description": "When this creature perishes, a random Robofish is created in the owner's hand",
+		"author":"Mr.Egg",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Catch%20of%20the%20Day.gd",
+		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_CatchOfDay.png"
 	}
-
-	
+	}
 }
