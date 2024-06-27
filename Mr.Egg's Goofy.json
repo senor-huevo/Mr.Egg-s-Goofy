@@ -598,6 +598,7 @@
 			],
 			"sheds": "Vertebrae",
 			"bone_cost": 4,
+			"description": "Sheds a Vertebrae at the end of turn.",
 			"rare":true
 		},
 		{
@@ -1671,8 +1672,8 @@
 				"Transformer"
 			],
 			"attack": 1,
-			"health": 1,
-			"energy_cost": 2,
+			"health": 2,
+			"energy_cost": 3,
 			"evolution": "SON1A (beast)"
 		},
 		{
@@ -1682,8 +1683,8 @@
 				"Airborne"
 			],
 			"attack": 2,
-			"health": 1,
-			"energy_cost": 2,
+			"health": 2,
+			"energy_cost": 3,
 			"evolution": "SON1A",
 			"banned": true
 		},
@@ -2056,6 +2057,7 @@
 				"Armored"
 			],
 			"bone_cost": 6,
+			"nosac":true,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Armor.png",
 			"description":"Custom card by syntaxevasion"
 		},
@@ -2395,8 +2397,8 @@
 				"Gem Detonator (5)"
 			],
 			"attack": 1,
-			"health": 1,
-			"energy_cost": 2
+			"health": 2,
+			"energy_cost": 3
 		},
 		{
 			"name": "Gem Fiend",
@@ -2431,7 +2433,7 @@
 		{
 			"name": "Junior Sage",
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"mox_cost": [
 				"Green"
 			]
@@ -2439,11 +2441,10 @@
 		{
 			"name": "Mage Knight",
 			"sigils": [
-				"Blood Lust",
 				"Gem Dependant"
 			],
 			"attack": 1,
-			"health": 2,
+			"health": 3,
 			"mox_cost": [
 				"Orange"
 			]
@@ -2597,7 +2598,7 @@
 				"Sprinter"
 			],
 			"sheds":"Gnome",
-			"description":"Card art by syntaxevasion",
+			"description":"Card art by syntaxevasion \n Sheds Gnome at the end of turn.",
 			"mox_cost":[
 				"Blue"
 			],
@@ -2635,7 +2636,7 @@
 				"Gem Dependant"
 			],
 			"attack": 1,
-			"health": 2
+			"health": 1
 		},
 		{
 			"name": "Ruby Golem",
@@ -3179,7 +3180,7 @@
 		"True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
 		"Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
 		"Vessel Printer": "Once a card bearing this sigil is struck, draw a card from your side deck.",
-		"Vigilant":"When this creature sees an opposing creature, a copy of this creature is created in the owner's hand without this sigil.",
+		"Vigilant":"When an opposing creature enters the opposing or if this creature is moved into a space that is opposed by a creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
 		"Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
 	},
@@ -3372,7 +3373,7 @@
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_CatchOfDay.png"
 	},
 		"Vigilant":{
-		"description":"When this creature sees an opposing creature, a copy of this creature is created in the owner's hand without this sigil.",
+		"description":"When an opposing creature enters the opposing or if this creature is moved into a space that is opposed by a creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"author":"Mr.Egg and Mouthless Stoat",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Vigilant.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Vigilant.png"
