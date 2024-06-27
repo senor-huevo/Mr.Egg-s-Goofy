@@ -850,8 +850,7 @@
 			"attack": 1,
 			"health": 2,
 			"sigils": [
-				"Airborne",
-				"Fecundity (Kaycee)"
+				"Airborne"
 			],
 			"blood_cost": 1,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
@@ -1031,10 +1030,10 @@
 		{
 			"name": "Stoat",
 			"attack": 1,
-			"health": 1,
+			"health": 3,
 			"blood_cost": 1,
 			"sigils": [
-				"Unkillable"
+				"Battery Bearer"
 			],
 			"rare":true
 		},
@@ -1043,10 +1042,21 @@
 			"attack": 1,
 			"health": 2,
 			"sigils":[
-				"Fecundity (Kaycee)"
+				"Guardian"
 			],
 			"blood_cost": 1,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Vanilla_Stoat.png"
+		},
+		{
+			"name": "Prairie Dog",
+			"blood_cost": 1,
+			"attack": 1,
+			"health": 2,
+			"sigils":[
+				"Vigilant"
+			],
+			"description":"Card and sigil art by syntaxevasion.\n Special help from Mouthless Stoat for help coding this sigil.",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_PrairieDog.png"
 		},
 		{
 			"name": "Urayuli",
@@ -3123,7 +3133,7 @@
 		"Gem Dependant": "If a card bearing this sigil's owner controls no mox cards, a card bearing this sigil perishes.",
 		"Gem Detonator (5)": "When Mox cards on the owner's side of the board die, they Detonate (the creature opposing them, as well as adjacent friendly creatures, are dealt 5 damage).",
 		"Gem Guardian": "When a card bearing this sigil is played, all Moxa cards on the owners' side of the board gain Nano Armor.",
-		"Gift Bearer": "When this creature perishes, you draw 1 card from main deck.",
+		"Gift Bearer": "When this creature perishes, the owner draws 1 card from main deck.",
 		"Great Mox": "While a card bearing this sigil is on the board, it provides a green, orange, and blue gem to its owner.",
 		"Green Mox": "While a card bearing this sigil is on the board, it provides a green gem to its owner.",
 		"Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
@@ -3165,10 +3175,11 @@
 		"Touch of Death": "When a card bearing this sigil damages another creature, that creature perishes.",
 		"Transformer": "At the beginning of your turn a card bearing this sigil will transform to, or from, Beast mode.",
 		"Trifurcated Strike": "A card bearing this sigil will strike each opposing space to the left, right, and center of it.",
-		"Trinket Bearer": "When this card is played, you draw 1 card from main deck.",
+		"Trinket Bearer": "When this card is played, the owner draws 1 card from main deck.",
 		"True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
 		"Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
 		"Vessel Printer": "Once a card bearing this sigil is struck, draw a card from your side deck.",
+		"Vigilant":"When this creature sees an opposing creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
 		"Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
 	},
@@ -3325,7 +3336,7 @@
 	},
 "custom_sigils": {
 "Trinket Bearer": {
-	"description":"When this card is played, you draw 1 card from main deck.",
+	"description":"When this card is played, the owner draws 1 card from main deck.",
 	"author": "Mr.Egg",
 	"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Trinket_Bearer%20.gd",
 	"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_randomconsumable.png"
@@ -3337,7 +3348,7 @@
 	"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Skeletons%20within.png"
 },
 	"Gift Bearer":{
-		"description": "When this creature perishes, you draw 1 card from main deck.",
+		"description": "When this creature perishes, the owner draws 1 card from main deck.",
 		"author":"Mr.Egg",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Gift%20Bearer.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_drawrandomcardondeath.png"
@@ -3359,6 +3370,12 @@
 		"author":"Mr.Egg",
 		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Catch%20of%20the%20Day.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_CatchOfDay.png"
-	}
+	},
+		"Vigilant":{
+		"description":"When this creature sees an opposing creature, a copy of this creature is created in the owner's hand without this sigil.",
+		"author":"Mr.Egg and Mouthless Stoat",
+		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Vigilant.gd",
+		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Vigilant.png"
+		}
 	}
 }
