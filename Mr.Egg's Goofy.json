@@ -1465,6 +1465,18 @@
 			"banned": true
 		},
 		{
+			"name":"Groonda",
+			"energy_cost":2,
+			"attack":1,
+			"health":1,
+			"sigils":[
+				"Sharp Quills",
+				"Sprinter"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Groonda.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Gift Bot",
 			"attack":0,
 			"health":2,
@@ -2208,6 +2220,17 @@
 			"nosac":true
 		},
 		{
+			"name": "Pumpkin Person",
+			"bone_cost":4,
+			"attack":1,
+			"health":2,
+			"sigils":[
+				"Shallow Graves"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Pottsfield.png",
+			"description":"Card and sigil art by syntaxevasion"
+		},
+		{
 			"name": "Tomb Robber",
 			"sigils": [
 				"Disentomb (Corpses)"
@@ -2227,6 +2250,20 @@
 				"Stinky"
 			],
 			"description": "This card was given the stinky sigil to differentiate it from Opossom. Suggested by FishGuy101."
+		},
+		{
+			"name": "Coffin",
+			"bone_cost":2,
+			"attack":0,
+			"health":1,
+			"sigils":[
+				"Frozen Away"
+			],
+			"evolution": "Zombie",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Coffin.png",
+			"description":"Card art by syntaxevasion",
+			"nosac":true,
+			"banned":true
 		},
 		{
 			"name": "Floating Eye",
@@ -2448,6 +2485,19 @@
 			"mox_cost": [
 				"Orange"
 			]
+		},
+		{
+			"name": "Mage Tycoon",
+			"mox_cost":[
+				"Orange"
+			],
+			"attack":0,
+			"health":1,
+			"sigils":[
+				"Philanthropy"
+			],
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Tycoon.png",
+			"description": "Card and sigil art by syntaxevasion"
 		},
 		{
 			"name": "Master Bleene",
@@ -3068,6 +3118,21 @@
 			"description": "Custom card by Garf, zpan0317, and Me!"
 		},
 		{
+			"name": "C4R1N",
+			"bone_cost": -1,
+			"energy_cost": 2,
+			"attack": 0,
+			"health": 2,
+			"sigils":[
+				"Sprinter",
+				"Bone Digger"
+			],
+			"nosac": true,
+			"banned":true,
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_C4R1N.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Moon Shard",
 			"sigils": [
 				"Mighty Leap",
@@ -3153,6 +3218,7 @@
 		"Omni Strike": "A card bearing this sigil will strike all opposing spaces.",
 		"Power Dice": "Pay 1 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
 		"Power Dice (2)": "Pay 2 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
+		"Philanthropy":"When this card is played, a Gift Bot is created in the owner's hand.",
 		"Rabbit Hole": "When a card bearing this sigil is played, a Rabbit is created in your hand.",
 		"Reconstitute": "A card bearing this sigil returns to your hand 2 turns after it persihes.",
 		"Repulsive": "If a creature would attack a card bearing this sigil, it does not.",
@@ -3162,6 +3228,7 @@
 		"Sentry": "When a creature moves into the space opposing a card bearing this sigil, they are dealt 1 damage.",
 		"Sharp Quills": "Once a card bearing this sigil is struck, the striker is then dealt a single damage point.",
 		"Side Hustle": "When a card bearing this sigil deals damage directly, draw a card from your side deck for each damage dealt.",
+		"Shallow Graves":"When this creature perishes, a Coffin is created adjacent empty spaces.",
 		"Skeleton Crew": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a skeleton in its old space.",
 		"Skeleton Crew (Yarr)": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a pirate skeleton in its old space.",
 		"Skeletons Within": "When this creature is damaged, a Skeleton is created in the owner's hand.",
@@ -3291,6 +3358,7 @@
 				"Emerald Mox",
 				"Sapphire Mox",
 				"Shambling Cairn",
+				"C4R1N",
 				"Moon Shard",
 				"Orlu's Vessel",
 				"Bleene's Vessel",
@@ -3322,6 +3390,7 @@
 				"Emerald Mox",
 				"Sapphire Mox",
 				"Shambling Cairn",
+				"C4R1N",
 				"Moon Shard",
 				"Acid Squirrel",
 				"Orlu's Vessel",
@@ -3377,6 +3446,18 @@
 		"author":"Mr.Egg and Mouthless Stoat",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Vigilant.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Vigilant.png"
+	},
+		"Philanthropy":{
+		"description":"When this card is played, a Gift Bot is created in the owner's hand.",
+		"author":"Mr.Egg",
+		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Philanthropy.gd",
+		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Philanthropy.png"
+	},
+		"Shallow Graves":{
+		"description":"When this creature perishes, a Coffin is created adjacent empty spaces.",
+		"author":"Mr.Egg",
+		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Shallow%20Graves.gd",
+		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_ShallowGraves.png"
 		}
 	}
 }
