@@ -2228,7 +2228,8 @@
 				"Shallow Graves"
 			],
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Pottsfield.png",
-			"description":"Card and sigil art by syntaxevasion"
+			"description":"Card and sigil art by syntaxevasion",
+			"nosac":true
 		},
 		{
 			"name": "Tomb Robber",
