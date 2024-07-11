@@ -646,7 +646,6 @@
 			"attack": 1,
 			"health": 1,
 			"blood_cost": 1,
-			"bone_cost": 3,
 			"rare": true
 		},
 		{
