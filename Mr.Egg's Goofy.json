@@ -3230,7 +3230,7 @@
 		"Sentry": "When a creature moves into the space opposing a card bearing this sigil, they are dealt 1 damage.",
 		"Sharp Quills": "Once a card bearing this sigil is struck, the striker is then dealt a single damage point.",
 		"Side Hustle": "When a card bearing this sigil deals damage directly, draw a card from your side deck for each damage dealt.",
-		"Shallow Graves":"When this creature perishes, a Coffin is created adjacent empty spaces.",
+		"Shallow Graves":"When this creature perishes, a Coffin is created on adjacent empty spaces.",
 		"Skeleton Crew": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a skeleton in its old space.",
 		"Skeleton Crew (Yarr)": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil and drop a pirate skeleton in its old space.",
 		"Skeletons Within": "When this creature is damaged, a Skeleton is created in the owner's hand.",
@@ -3249,7 +3249,7 @@
 		"True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
 		"Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
 		"Vessel Printer": "Once a card bearing this sigil is struck, draw a card from your side deck.",
-		"Vigilant":"When an opposing creature enters the opposing or if this creature is moved into a space that is opposed by a creature, a copy of this creature is created in the owner's hand without this sigil.",
+		"Vigilant":"When an opposing creature sees this creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
 		"Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
 	},
@@ -3444,7 +3444,7 @@
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_CatchOfDay.png"
 	},
 		"Vigilant":{
-		"description":"When an opposing creature enters the opposing or if this creature is moved into a space that is opposed by a creature, a copy of this creature is created in the owner's hand without this sigil.",
+		"description":"When an opposing creature sees this creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"author":"Mr.Egg and Mouthless Stoat",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Vigilant.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Vigilant.png"
@@ -3456,7 +3456,7 @@
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Philanthropy.png"
 	},
 		"Shallow Graves":{
-		"description":"When this creature perishes, a Coffin is created adjacent empty spaces.",
+		"description":"When this creature perishes, a Coffin is created on adjacent empty spaces.",
 		"author":"Mr.Egg",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Shallow%20Graves.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_ShallowGraves.png"
