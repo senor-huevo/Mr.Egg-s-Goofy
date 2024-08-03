@@ -222,7 +222,7 @@
 				"Dam Builder"
 			],
 			"attack": 1,
-			"health": 3,
+			"health": 2,
 			"blood_cost": 1
 		},
 		{
@@ -303,7 +303,8 @@
 			"attack": 0,
 			"health": 1,
 			"evolution": "Bullfrog",
-			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_tadpole.png"
+			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/pixelportrait_tadpole.png",
+			"banned":true
 		},
 		{
 			"name": "Burrowing Trap",
@@ -364,7 +365,8 @@
 				"Airborne",
 				"Brood Parasite"
 			],
-			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/pixport_cuckoo.png"
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/pixport_cuckoo.png",
+			"banned":true
 		},
 		{
 			"name": "Broken Egg",
@@ -1417,8 +1419,7 @@
 			"attack": 0,
 			"health": 1,
 			"energy_cost": 4,
-			"active": true,
-			"rare":true
+			"active": true
 		},
 		{
 			"name": "Gembound Ripper",
@@ -1451,7 +1452,7 @@
 			],
 			"attack": 0,
 			"health": 6,
-			"energy_cost": 6,
+			"energy_cost": 4,
 			"evolution": "GR1ZZ (beast)"
 		},
 		{
@@ -1461,7 +1462,7 @@
 			],
 			"attack": 4,
 			"health": 6,
-			"energy_cost": 6,
+			"energy_cost": 4,
 			"evolution": "GR1ZZ",
 			"banned": true
 		},
@@ -1759,7 +1760,8 @@
 			],
 			"energy_cost": 2,
 			"attack": 1,
-			"health": 1
+			"health": 1,
+			"banned":true
 		},
 		{
 			"name": "Shield Latcher",
@@ -1768,7 +1770,8 @@
 			],
 			"attack": 0,
 			"health": 2,
-			"energy_cost": 2
+			"energy_cost": 2,
+			"banned":true
 		},
 		{
 			"name": "Bomb Latcher",
@@ -1777,7 +1780,8 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"energy_cost": 1
+			"energy_cost": 1,
+			"banned":true
 		},
 		{
 			"name": "Steambot",
@@ -2118,7 +2122,7 @@
 			"name": "Grim Reaper",
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 8,
+			"bone_cost": 13,
 			"sigils": [
 				"Touch of Death",
 				"Omni Strike"
@@ -2316,7 +2320,7 @@
 			"name": "Cutpurse",
 			"attack": 1,
 			"health": 1,
-			"bone_cost": 3,
+			"bone_cost": 2,
 			"sigils":[
 				"Brittle",
 				"Side Hustle"
