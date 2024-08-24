@@ -256,6 +256,18 @@
 			"health": 3
 		},
 		{
+			"name": "Black Widow",
+			"blood_cost": 2,
+			"attack": 2,
+			"health": 2,
+			"sigils":[
+				"Touch of Death",
+				"Mighty Leap"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/pixelportrait_blackwidow.png",
+			"description": "Custom card by syntaxevasion and Eternalhours"
+		},
+		{
 			"name": "Black Goat",
 			"attack": 0,
 			"health": 1,
@@ -1032,6 +1044,18 @@
 			"blood_cost": 1
 		},
 		{
+			"name":"Aquasquirrel Ball",
+			"blood_cost": 1,
+			"attack": 0,
+			"health": 2,
+			"sigils":[
+				"Sprinter"
+			],
+			"sheds":"Aquasquirrel",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/pixelportrait_aquasquirrelball.png",
+			"description":"Card art by syntaxevasion.\n Sheds Aquasquirrel at the end of turn."
+		},
+		{
 			"name": "Stoat",
 			"attack": 1,
 			"health": 3,
@@ -1208,6 +1232,18 @@
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Claptrap.png",
 			"description":"Custom card by syntaxevasion",
 			"nosac":true
+		},
+		{
+			"name": "Cyber Pirate",
+			"energy_cost":3,
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Depleting",
+				"Looter"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/pixelportrait_cyberpirate.png",
+			"description":"Custom card by syntaxevasion and Eternalhours"
 		},
 		{
 			"name": "Automaton",
