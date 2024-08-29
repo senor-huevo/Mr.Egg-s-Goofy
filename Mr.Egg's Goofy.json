@@ -208,6 +208,17 @@
 			"rare": true
 		},
 		{
+			"name": "Badger",
+			"blood_cost": 2,
+			"attack": 2,
+			"health": 2,
+			"sigils":[
+				"Blood Lust"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Badger.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Bat",
 			"sigils": [
 				"Airborne"
@@ -1204,6 +1215,18 @@
 			"description": "Custom card by FishGuy101.\nCard art by Mark"
 		},
 		{
+			"name": "Trap-Jaw Ant",
+			"blood_cost": 2,
+			"attack":-1,
+			"atkspecial":"ant",
+			"health":2,
+			"sigils":[
+				"Steel Trap"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_TrapAnt.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
 			"name": "Mole Seaman",
 			"attack": 1,
 			"health": 8,
@@ -1590,6 +1613,29 @@
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_mycobot.png",
 			"description":"Card art by syntaxevasion"
 	    },
+		{
+			"name": "Minute Mech",
+			"energy_cost": 2,
+			"attack":1,
+			"health":1,
+			"sigils":[
+				"Vigilant"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_MinuteMech.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "M00nsh1n3r",
+			"energy_cost": 1,
+			"attack": 1,
+			"health": 1,
+			"sigils":[
+				"Depleting",
+				"Touch of Death"
+			],
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_M00nsh1n3r.png",
+			"description":"Card art by syntaxevasion"
+		},
 		{
 			"name": "49er",
 			"sigils": [
@@ -2049,6 +2095,18 @@
 			"health": 2,
 			"bone_cost": 4,
 			"conduit": true
+		},
+		{
+			"name": "Brides of Frank & Stein",
+			"bone_cost": 6,
+			"attack":1,
+			"health":4,
+			"sigils":[
+				"Attack Conduit"
+			],
+			"conduit":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_Bride.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Ghost Ship",
