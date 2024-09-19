@@ -198,6 +198,14 @@
 			"blood_cost": 1
 		},
 		{
+			"name": "Vanilla Amalgam",
+			"blood_cost": 2,
+			"attack": 3,
+			"health": 3,
+			"rare":true,
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/pixelportrait_amalgam.png"
+		},
+		{
 			"name": "Amalgam",
 			"sigils": [
 				"Amalgamation"
@@ -305,7 +313,7 @@
 				"Guardian"
 			],
 			"attack": 2,
-			"health": 4,
+			"health": 3,
 			"blood_cost": 2
 		},
 		{
@@ -611,7 +619,8 @@
 			"health": 1,
 			"blood_cost": 1,
 			"rare": true,
-			"description": "Note: This card's effect was changed due to it sucking."
+			"description": "Note: This card's effect was changed due to it sucking.",
+			"banned":true
 		},
 		{
 			"name": "Long Elk",
@@ -986,37 +995,24 @@
 		},
 		{
 			"name": "Bell Tentacle",
-			"sigils": [
-				"Tentacle"
-			],
 			"attack": 0,
 			"health": 1,
 			"blood_cost": 2,
-			"banned": true,
 			"rare":true
 		},
 		{
 			"name": "Hand Tentacle",
-			"sigils": [
-				"Tentacle"
-			],
 			"attack": 0,
 			"health": 1,
-			"blood_cost": 1,
-			"banned": true,
+			"blood_cost": 2,
 			"rare":true
 		},
 		{
 			"name": "Mirror Tentacle",
-			"sigils": [
-				"Tentacle"
-			],
 			"attack": 0,
-			"health": 1,
+			"health": 3,
 			"blood_cost": 1,
-			"atkspecial": "mirror",
-			"banned": true,
-			"rare":true
+			"atkspecial": "mirror"
 		},
 		{
 			"name": "Raccoon",
@@ -1294,7 +1290,7 @@
 			],
 			"attack": 2,
 			"health": 1,
-			"energy_cost": 3
+			"energy_cost": 2
 		},
 		{
 			"name": "Energy Bot",
@@ -1802,6 +1798,7 @@
 			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/syntax_RMummyLord.png",
 			"energy_cost": 6,
 			"rare": true,
+			"nosac":true,
 			"description":"Card art by syntaxevasion"
 		},
 		{
