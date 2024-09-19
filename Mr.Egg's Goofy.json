@@ -1012,7 +1012,8 @@
 			"attack": 0,
 			"health": 3,
 			"blood_cost": 1,
-			"atkspecial": "mirror"
+			"atkspecial": "mirror",
+			"rare":true
 		},
 		{
 			"name": "Raccoon",
