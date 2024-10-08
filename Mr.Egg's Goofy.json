@@ -2740,6 +2740,20 @@
 			"description":"Card art by syntaxevasion"
 		},
 		{
+			"name": "Sock Sorcerer",
+			"mox_cost":[
+				"Blue"
+			],
+			"attack":1,
+			"health":1,
+			"sigils":[
+				"Polymorph"
+			],
+			"nosac":true,
+			"description":"Custom card by ener",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/portrait_sock%20puppet%20wizard_gbc.png"
+		},
+		{
 			"name": "Gnome",
 			"attack":1,
 			"health":1,
@@ -3315,6 +3329,7 @@
 		"Music Player": "A card bearing this sigil plays a song of your choice when played",
 		"Orange Mox": "While a card bearing this sigil is on the board, it provides an orange gem to its owner.",
 		"Omni Strike": "A card bearing this sigil will strike all opposing spaces.",
+		"Polymorph": "When this card is played, the opposing creature is transformed into a Sock Sorcerer.",
 		"Power Dice": "Pay 1 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
 		"Power Dice (2)": "Pay 2 energy to set the power of a card bearing this sigil randomly between 1 and 6.",
 		"Philanthropy":"When this card is played, a Gift Bot is created in the owner's hand.",
@@ -3557,6 +3572,11 @@
 		"author":"Mr.Egg",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Shallow%20Graves.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_ShallowGraves.png"
+		},
+		"Polymorph":{
+		"description":"When this card is played, the opposing creature is transformed into a Sock Sorcerer.",
+		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Polymorph.gd",
+		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/sigil_polymorph_gbc.png"
 		}
 	}
 }
