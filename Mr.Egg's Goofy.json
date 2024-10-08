@@ -3575,6 +3575,7 @@
 		},
 		"Polymorph":{
 		"description":"When this card is played, the opposing creature is transformed into a Sock Sorcerer.",
+		"author":"Mr.Egg",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Polymorph.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/sigil_polymorph_gbc.png"
 		}
