@@ -217,8 +217,8 @@
 		},
 		{
 			"name": "Badger",
-			"blood_cost": 2,
-			"attack": 2,
+			"blood_cost": 1,
+			"attack": 1,
 			"health": 2,
 			"sigils":[
 				"Blood Lust"
