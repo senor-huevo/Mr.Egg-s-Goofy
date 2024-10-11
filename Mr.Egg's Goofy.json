@@ -747,7 +747,6 @@
 			"health": 1,
 			"blood_cost": 2,
 			"rare": true,
-			"nosac":true,
 			"description": "This card gains 1 power and 1 health each time it perishes."
 		},
 		{
@@ -847,7 +846,7 @@
 				"Airborne"
 			],
 			"attack": 2,
-			"health": 4,
+			"health": 3,
 			"blood_cost": 2
 		},
 		{
@@ -967,7 +966,7 @@
 			],
 			"attack": 0,
 			"health": 4,
-			"blood_cost": 1,
+			"blood_cost": 2,
 			"banned": true,
 			"evolution": "Mothman",
 			"rare": true
@@ -979,7 +978,7 @@
 			],
 			"attack": 7,
 			"health": 5,
-			"blood_cost": 1,
+			"blood_cost": 3,
 			"banned": true,
 			"rare": true
 		},
@@ -1099,7 +1098,8 @@
 			"attack": 7,
 			"health": 7,
 			"blood_cost": 4,
-			"rare": true
+			"rare": true,
+			"description": "A wooly man without a face, a beast without a name."
 		},
 		{
 			"name": "Warren",
@@ -2023,7 +2023,6 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": -1,
 			"rare": true,
 			"active": true
 		},
@@ -3361,7 +3360,7 @@
 		"True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
 		"Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
 		"Vessel Printer": "Once a card bearing this sigil is struck, draw a card from your side deck.",
-		"Vigilant":"When an opposing creature sees this creature, a copy of this creature is created in the owner's hand without this sigil.",
+		"Vigilant":"When this creature sees an opposing creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
 		"Worthy Sacrifice": "A card bearing this sigil is counted as 3 blood rather than 1 blood when sacrificed."
 	},
@@ -3556,7 +3555,7 @@
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_CatchOfDay.png"
 	},
 		"Vigilant":{
-		"description":"When an opposing creature sees this creature, a copy of this creature is created in the owner's hand without this sigil.",
+		"description":"When this creature sees an opposing creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"author":"Mr.Egg and Mouthless Stoat",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilScript/Vigilant.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Sigils/SigilArt/syntax_Vigilant.png"
