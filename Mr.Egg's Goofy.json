@@ -776,7 +776,8 @@
 			"health": 2,
 			"blood_cost": 3,
 			"sigils": [
-				"Waterborne"
+				"Waterborne",
+				"Blood Lust"
 			],
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
@@ -1575,6 +1576,18 @@
 			"attack": 0,
 			"health": 2,
 			"energy_cost": 1
+		},
+		{
+			"name": "Lonely Wizbot",
+			"energy_cost": 2,
+			"attack": 2,
+			"health": 1,
+			"sigils": [
+				"Clinger"
+			],
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/pixelportrait_lonelywizbot.png",
+			"description": "Card and sigil art by syntaxevasion",
+			"rare":true
 		},
 		{
 			"name": "Librarian",
@@ -3287,7 +3300,8 @@
 		"Brittle": "After attacking, a card bearing this sigil perishes.",
 		"Brood Parasite": "When this card is played, a Broken Egg is created in the opposing empty space.",
 		"Burrower": "When an empty space would be struck, a card bearing this sigil will move to that space to receive the strike instead.",
-		"Catch of the Day": "When this creature perishes, a random Robofish is created in the owner's hand",
+		"Catch of the Day": "When this creature perishes, a random Robofish is created in the owner's hand.",
+		"Clinger": "When one of your creatures is placed in a space, this creature will move towards that creature as far as possible.",
 		"Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
 		"Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
 		"Dead Byte": "When this creature perishes, the owner takes 1 damage.",
@@ -3577,6 +3591,13 @@
 		"author":"Mr.Egg",
 		"url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Polymorph.gd",
 		"icon_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/sigil_polymorph_gbc.png"
-		}
+	},
+		"Clinger":{
+		"description":"When one of your creatures is placed in a space, this creature will move towards that creature as far as possible.",
+		"author": "Mr.Egg",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Clinger.gd",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/syntax_movebeside.png"
+
+	}
 	}
 }
