@@ -5,7 +5,7 @@ func handle_event(event: String, params: Array):
 
 	if event == "card_summoned" and not card.in_hand and (params[0].get_parent().get_parent().name == "PlayerSlots") == isFriendly:
 		if params[0] != card:
-			for movSigil in ["Clinger"]:
+			for movSigil in ["Clinger", "Sprinter", "Squirrel Shedder", "Skeleton Crew", "Skeleton Crew (Yarr)", "Hefty"]:
 				var slot_idx = params[0].slot_idx()
 				var offset = 0
 				var cardSlots = slotManager.playerSlots if isFriendly else slotManager.enemySlots
