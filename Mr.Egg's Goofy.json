@@ -17,6 +17,7 @@
 			"name": "Starvation",
 			"attack": 1,
 			"health": 1,
+			"sigils": ["Repulsive"],
 			"banned": true
 		},
 		{
@@ -135,7 +136,7 @@
 				"Guardian",
 				"Sharp Quills"
 			],
-			"attack": 1,
+			"attack": 0,
 			"health": 1,
 			"bone_cost": 1,
 			"rare": true,
@@ -153,6 +154,15 @@
 			"bone_cost":2,
 			"rare": true,
 			"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_louis.png",
+			"description":"Card art by syntaxevasion"
+		},
+		{
+			"name": "Luke Carder",
+			"bone_cost": 9,
+			"attack": 4,
+			"health": 4,
+			"rare":true,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_Luke.png",
 			"description":"Card art by syntaxevasion"
 		},
 		{
@@ -367,6 +377,16 @@
 				"Unkillable"
 			],
 			"banned": true
+		},
+		{
+			"name": "Cicada",
+			"bone_cost": 2,
+			"attack": 0,
+			"health": 1,
+			"sigils":["Annoying",
+			"Fecundity (Kaycee)"],
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_Cicada.png",
+			"description": "Card art by syntaxevasion"
 		},
 		{
 			"name": "Cockroach",
@@ -776,8 +796,7 @@
 			"health": 2,
 			"blood_cost": 3,
 			"sigils": [
-				"Waterborne",
-				"Blood Lust"
+				"Waterborne"
 			],
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
 		},
@@ -1678,6 +1697,28 @@
 			"nosac": true
 		},
 		{
+			"name": "Nuclear Family",
+			"energy_cost": 5,
+			"attack": 2,
+			"health": 2,
+			"sigils":["Bone King"],
+			"nosac":true,
+			"description":"Card art by syntaxevasion",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_NukeFamily.png"
+		},
+		{
+			"name": "Whirlybird",
+			"energy_cost": 4,
+			"attack": 2,
+			"health": 1,
+			"sigils":[
+				"Airborne"
+			],
+			"nosac":true,
+			"description":"Card art by syntaxevasion",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_Whirlybird.png"
+		},
+		{
 			"name": "Plasma Jimmy",
 			"sigils": [
 				"Energy Gun"
@@ -2097,7 +2138,19 @@
 			],
 			"attack": 1,
 			"health": 2,
-			"bone_cost": 3
+			"bone_cost": 4
+		},
+		{
+			"name": "Traveling Salesman",
+			"bone_cost": 3,
+			"attack":0,
+			"health":1,
+			"sigils":[
+				"Gift Bearer"
+			],
+			"nosac":true,
+			"description":"Card art by syntaxevasion",
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_TravelSalesman.png"
 		},
 		{
 			"name": "Frank & Stein",
@@ -2126,7 +2179,8 @@
 			],
 			"attack": 0,
 			"health": 1,
-			"bone_cost": 4
+			"bone_cost": 4,
+			"nosac":true
 		},
 		{
 			"name": "Gravedigger",
@@ -2138,18 +2192,6 @@
 			"health": 3
 		},
 		{
-			"name":"Gashadokuro",
-			"attack":5,
-			"health":5,
-			"sigils":[
-				"Bone King"
-			],
-			"bone_cost":10,
-			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gashadokuro.png",
-			"rare":true,
-			"description":"Custom card by syntaxevasion"
-		},
-		{
 			"name": "Sporedigger",
 			"sigils": [
 				"Bone Digger",
@@ -2159,6 +2201,31 @@
 			"health": 3,
 			"bone_cost": 1,
 			"banned": true
+		},
+		{
+			"name":"Gashadokuro",
+			"attack":5,
+			"health":5,
+			"sigils":[
+				"Bone King"
+			],
+			"bone_cost":11,
+			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gashadokuro.png",
+			"rare":true,
+			"description":"Custom card by syntaxevasion"
+		},
+		{
+			"name": "Garo",
+			"bone_cost": 6,
+			"attack": 2,
+			"health": 1,
+			"sigils":[
+				"Boneless",
+				"Detonator (5)"
+			],
+			"nosac":true,
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_Garo.png",
+			"description":"Card art by syntaxevasion"
 		},
 		{
 			"name": "Headless Horseman",
@@ -3064,7 +3131,7 @@
 		{
 			"name": "Ruby Vessel",
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
@@ -3077,7 +3144,7 @@
 		{
 			"name": "Sapphire Vessel",
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
@@ -3090,7 +3157,7 @@
 		{
 			"name": "Emerald Vessel",
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"energy_cost": 1,
 			"nosac": true,
 			"banned": true,
