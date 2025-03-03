@@ -318,6 +318,13 @@
 			"description":"Card art by syntaxevasion"
 		},
 		{
+			"name": "Geck",
+			"attack": 1,
+			"health": 1,
+			"rare": true,
+			"description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
+		},
+		{
 			"name": "Bloodhound",
 			"sigils": [
 				"Guardian"
@@ -2158,7 +2165,6 @@
 			"sigils":[
 				"Gift Bearer"
 			],
-			"nosac":true,
 			"description":"Card art by syntaxevasion",
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_TravelSalesman.png"
 		},
@@ -2809,8 +2815,8 @@
 			"sigils": [
 				"Hefty"
 			],
-			"attack": 1,
-			"health": 2,
+			"attack": 0,
+			"health": 3,
 			"mox_cost": [
 				"Green"
 			]
@@ -3287,14 +3293,6 @@
 			"description":"Card art by syntaxevasion"
 		},
 		{
-			"name": "Geck",
-			"attack": 1,
-			"health": 1,
-			"rare": true,
-			"banned": true,
-			"description": "Ported from Act 1. Act 2 sprite from Kaycee's Mod."
-		},
-		{
 			"name": "Acid Squirrel",
 			"attack": 0,
 			"health": 1,
@@ -3552,7 +3550,6 @@
 			"cards":[
 				"Squirrel",
 				"Aquasquirrel",
-				"Geck",
 				"Skeleton",
 				"Exeskeleton",
 				"Empty Vessel",
@@ -3584,7 +3581,6 @@
 			"cards": [
 				"Squirrel",
 				"Aquasquirrel",
-				"Geck",
 				"Skeleton",
 				"Exeskeleton",
 				"Empty Vessel",
