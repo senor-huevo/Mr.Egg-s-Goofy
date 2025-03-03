@@ -23,7 +23,7 @@
 		{
 			"name": "Greater Smoke",
 			"sigils": [
-				"Bone King"
+				"Bone King(Goofy)"
 			],
 			"attack": 1,
 			"health": 3,
@@ -248,7 +248,7 @@
 		{
 			"name": "Beaver",
 			"sigils": [
-				"Dam Builder"
+				"Dam Builder(Goofy)"
 			],
 			"attack": 1,
 			"health": 2,
@@ -374,7 +374,7 @@
 			"health": 6,
 			"blood_cost": 3,
 			"sigils":[
-				"Unkillable"
+				"Unkillable(Goofy)"
 			],
 			"banned": true
 		},
@@ -393,7 +393,7 @@
 			"attack": 1,
 			"health": 1,
 			"sigils": [
-				"Unkillable"
+				"Unkillable(Goofy)"
 			],
 			"bone_cost": 4,
 			"description": "Ported from Act 1. Act 2 sprite by syntaxevasion."
@@ -581,7 +581,7 @@
 		{
 			"name": "Rat King",
 			"sigils": [
-				"Bone King"
+				"Bone King(Goofy)"
 			],
 			"attack": 2,
 			"health": 1,
@@ -761,7 +761,7 @@
 		{
 			"name": "Ouroboros",
 			"sigils": [
-				"Unkillable"
+				"Unkillable(Goofy)"
 			],
 			"attack": 1,
 			"health": 1,
@@ -1478,7 +1478,7 @@
 			"attack": 2,
 			"health": 2,
 			"sigils":[
-				"Sentry",
+				"Sentry(Goofy)",
 				"Sharp Quills",
 				"Sniper"
 			],
@@ -1701,7 +1701,7 @@
 			"energy_cost": 5,
 			"attack": 2,
 			"health": 2,
-			"sigils":["Bone King"],
+			"sigils":["Bone King(Goofy)"],
 			"nosac":true,
 			"description":"Card art by syntaxevasion",
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_NukeFamily.png"
@@ -1763,7 +1763,7 @@
 		{
 			"name": "Sentry Drone",
 			"sigils": [
-				"Sentry"
+				"Sentry(Goofy)"
 			],
 			"attack": 0,
 			"health": 1,
@@ -1773,8 +1773,8 @@
 		{
 			"name": "Sentry Spore",
 			"sigils": [
-				"Sentry",
-				"Sentry"
+				"Sentry(Goofy)",
+				"Sentry(Goofy)"
 			],
 			"attack": 0,
 			"health": 1,
@@ -1859,7 +1859,7 @@
 		{
 			"name": "Mrs. Bomb",
 			"sigils": [
-				"Bomb Spewer"
+				"Bomb Spewer(Goofy)"
 			],
 			"attack": 1,
 			"health": 2,
@@ -1867,10 +1867,20 @@
 			"rare": true
 		},
 		{
+			"name":"Ourobot",
+			"energy_cost": 6,
+			"attack": 1,
+			"health": 1,
+			"sigils": ["Unkillable(Goofy)"],
+			"description":"Card art by syntaxevasion",
+			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_ourobot.png",
+			"rare":true
+		},
+		{
 			"name": "Shutterbug",
 			"sigils": [
 				"Touch of Death",
-				"Sentry"
+				"Sentry(Goofy)"
 			],
 			"attack": 1,
 			"health": 1,
@@ -1929,7 +1939,7 @@
 			"attack":1,
 			"health":1,
 			"sigils": [
-				"Sentry"
+				"Sentry(Goofy)"
 			],
 			"energy_cost": 3,
 			"pixport_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gunbot.png",
@@ -2092,7 +2102,7 @@
 		{
 			"name": "Broken Obol 2",
 			"sigils": [
-				"Bone King"
+				"Bone King(Goofy)"
 			],
 			"attack": 0,
 			"health": 2,
@@ -2101,7 +2111,7 @@
 		{
 			"name": "Dead Hand",
 			"sigils": [
-				"Handy"
+				"Handy(Goofy)"
 			],
 			"attack": 1,
 			"health": 1,
@@ -2134,7 +2144,7 @@
 		{
 			"name": "The Walkers",
 			"sigils": [
-				"Bone King"
+				"Bone King(Goofy)"
 			],
 			"attack": 1,
 			"health": 2,
@@ -2207,7 +2217,7 @@
 			"attack":5,
 			"health":5,
 			"sigils":[
-				"Bone King"
+				"Bone King(Goofy)"
 			],
 			"bone_cost":11,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gashadokuro.png",
@@ -2450,7 +2460,7 @@
 			"bone_cost": 3,
 			"sigils": [
 				"Airborne",
-				"Sentry"
+				"Sentry(Goofy)"
 			],
 			"description": "Custom card by SYNTHIA_2000"
 		},
@@ -2907,7 +2917,7 @@
 		{
 			"name": "Mox Tower",
 			"sigils": [
-				"Sentry",
+				"Sentry(Goofy)",
 				"Orange Mox"
 			],
 			"attack": 0,
@@ -2963,7 +2973,7 @@
 			"attack": 1,
 			"health": 1,
 			"sigils": [
-				"Unkillable"
+				"Unkillable(Goofy)"
 			],
 			"mox_cost": [
 				"Blue"
@@ -3123,7 +3133,7 @@
 		"nosac": true,
 		"banned": true,
 		"sigils": [
-			"Sentry"
+			"Sentry(Goofy)"
 		],
 		"pixport_url": "https://raw.githubusercontent.com/EternalHours/EternalFormat/main/portraits/syntax_vesselsentry.png",
 		"description":"Card art by syntaxevasion"
@@ -3358,9 +3368,11 @@
 		"Bifurcated Strike": "A card bearing this sigil will strike each opposing space to the left and right of the space across from it.",
 		"Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
 		"Blue Mox": "While a card bearing this sigil is on the board, it provides a blue gem to its owner.",
-		"Bomb Spewer": "When a card bearing this sigil is played, fill all empty spaces with explode bots.",
+		"Bomb Spewer": "When a card bearing this sigil is played, fill all empty spaces with an Explode Bot.",
+		"Bomb Spewer(Goofy)": "The first time this card is played, fill all empty spaces with an explode bot.",
 		"Bone Digger": "At the end of the owner's turn, a card bearing this sigil will generate 1 bone.",
 		"Bone King": "When a card bearing this sigil dies, 4 bones are awarded instead of 1.",
+		"Bone King(Goofy)":"When a card bearing this sigil dies, 4 bones are awarded instead of 1.",
 		"Bonehorn": "Pay 1 energy to gain 3 bones.",
 		"Bonehorn (1)": "Pay 1 energy to gain 1 bone.",
 		"Boneless": "When a card bearing this sigil dies, no bones are awarded.",
@@ -3371,6 +3383,7 @@
 		"Clinger": "When one of your creatures is placed in a space, this creature will move towards that creature as far as possible.",
 		"Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
 		"Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
+		"Dam Builder(Goofy)": "The first time this card is played, a Dam is created on each empty adjacent space.",
 		"Dead Byte": "When this creature perishes, the owner takes 1 damage.",
 		"Depleting": "When a card bearing this sigil is played, 2 energy cells are removed from its owner",
 		"Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
@@ -3397,6 +3410,7 @@
 		"Green Mox": "While a card bearing this sigil is on the board, it provides a green gem to its owner.",
 		"Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
 		"Handy": "When a card bearing this sigil is played, discard your hand then draw a new hand of 4 cards.",
+		"Handy(Goofy)":"When a card bearing this sigil is played, discard your hand then draw a new hand of 4 cards.",
 		"Hefty": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil. creatures in the way will be pushed in the same direction.",
 		"Hoarder": "When a card bearing this sigil is played, you may search your deck for any card and take it into your hand.",
 		"Leader": "Creatures adjacent to a card bearing this sigil gain 1 Power.",
@@ -3420,6 +3434,7 @@
 		"Noble Sacrifice": "A card bearing this sigil is counted as 2 blood rather than 1 blood when sacrificed.",
 		"Scopophobic": "A card bearing this sigil gains 1 power when not facing an enemy creature.",
 		"Sentry": "When a creature moves into the space opposing a card bearing this sigil, they are dealt 1 damage.",
+		"Sentry(Goofy)": "When this creature sees an opposing creature, they are dealt 1 damage.",
 		"Sharp Quills": "Once a card bearing this sigil is struck, the striker is then dealt a single damage point.",
 		"Side Hustle": "When a card bearing this sigil deals damage directly, draw a card from your side deck for each damage dealt.",
 		"Shallow Graves":"When this creature perishes, a Coffin is created on adjacent empty spaces.",
@@ -3440,6 +3455,7 @@
 		"Trinket Bearer": "When this card is played, the owner draws 1 card from main deck.",
 		"True Scholar": "If you have a blue gem, sacrifice a card bearing this sigil to draw 3 cards.",
 		"Unkillable": "When a card bearing this sigil perishes, a copy of it is created in your hand.",
+		"Unkillable(Goofy)":"When a card bearing this sigil perishes, a copy of it is created in your hand.",
 		"Vessel Printer": "Once a card bearing this sigil is struck, draw a card from your side deck.",
 		"Vigilant":"When this creature sees an opposing creature, a copy of this creature is created in the owner's hand without this sigil.",
 		"Waterborne": "A card bearing this sigil submerges itself during its opponent's turn. while submerged, opposing creatures attack its owner directly.",
@@ -3665,6 +3681,43 @@
 		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Clinger.gd",
 		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/syntax_movebeside.png"
 
+	},
+		"Bomb Spewer(Goofy)":{
+		"description": "The first time this card is played, fill all empty spaces with an Explode Bot.",
+		"author":"Mr.Egg",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Bomb%20Spewer(Goofy).gd",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Bomb%20Spewer.png"
+	},
+		"Bone King(Goofy)":{
+		"description": "When this creature perishes, 4 bones are awarded instead of 1.",
+		"author": "Mr.Egg",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Bone%20King(Goofy).gd",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Bone%20King.png"
+	},
+		"Dam Builder(Goofy)":{
+		"description": "The first time this card is played, a Dam is created on each empty adjacent space.",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Dam%20Builder(Goofy).gd",
+		"author":"Mr.Egg",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Dam%20Builder.png"
+	},
+		"Handy(Goofy)":{
+		"description": "When this card is played, discard your hand then draw a new hand of 4 cards.",
+		"author":"Mr.Egg",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Handy(Goofy).gd",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Handy.png"
+	},
+		"Sentry(Goofy)":{
+		"description": "When this creature sees an opposing creature, they are dealt 1 damage.",
+		"author":"Mr.Egg",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Sentry(Goofy).gd",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Sentry.png"
+	},
+		"Unkillable(Goofy)":{
+		"description": "When this creature perishes, a copy of it is created in your hand.",
+		"author": "Mr.Egg",
+		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Unkillable(Goofy).gd",
+		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Unkillable.png"
+
 	}
-	}
+}
 }
