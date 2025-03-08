@@ -248,7 +248,7 @@
 		{
 			"name": "Beaver",
 			"sigils": [
-				"Dam Builder(Goofy)"
+				"Dam Builder"
 			],
 			"attack": 1,
 			"health": 2,
@@ -1022,15 +1022,17 @@
 		{
 			"name": "Bell Tentacle",
 			"attack": 0,
-			"health": 1,
+			"health": 2,
 			"blood_cost": 2,
+			"atkspecial": "Bell",
 			"rare":true
 		},
 		{
 			"name": "Hand Tentacle",
 			"attack": 0,
 			"health": 1,
-			"blood_cost": 2,
+			"blood_cost": 1,
+			"atkspecial": "Hand",
 			"rare":true
 		},
 		{
@@ -1866,7 +1868,7 @@
 		{
 			"name": "Mrs. Bomb",
 			"sigils": [
-				"Bomb Spewer(Goofy)"
+				"Bomb Spewer"
 			],
 			"attack": 1,
 			"health": 2,
@@ -2118,7 +2120,7 @@
 		{
 			"name": "Dead Hand",
 			"sigils": [
-				"Handy(Goofy)"
+				"Handy"
 			],
 			"attack": 1,
 			"health": 1,
@@ -3367,7 +3369,6 @@
 		"Blood Lust": "When a card bearing this Sigil attacks an opposing creature and it perishes, this card gains 1 power.",
 		"Blue Mox": "While a card bearing this sigil is on the board, it provides a blue gem to its owner.",
 		"Bomb Spewer": "When a card bearing this sigil is played, fill all empty spaces with an Explode Bot.",
-		"Bomb Spewer(Goofy)": "The first time this card is played, fill all empty spaces with an explode bot.",
 		"Bone Digger": "At the end of the owner's turn, a card bearing this sigil will generate 1 bone.",
 		"Bone King": "When a card bearing this sigil dies, 4 bones are awarded instead of 1.",
 		"Bone King(Goofy)":"When a card bearing this sigil dies, 4 bones are awarded instead of 1.",
@@ -3381,7 +3382,6 @@
 		"Clinger": "When one of your creatures is placed in a space, this creature will move towards that creature as far as possible.",
 		"Corpse Eater": "If a creature that you own perishes by combat, a card bearing this sigil in your hand is automatically played in its place.",
 		"Dam Builder": "When a card bearing this sigil is played, a Dam is created on each empty adjacent space.",
-		"Dam Builder(Goofy)": "The first time this card is played, a Dam is created on each empty adjacent space.",
 		"Dead Byte": "When this creature perishes, the owner takes 1 damage.",
 		"Depleting": "When a card bearing this sigil is played, 2 energy cells are removed from its owner",
 		"Detonator": "When a card bearing this sigil dies, the creature opposing it, as well as adjacent friendly creatures, are dealt 10 damage.",
@@ -3408,7 +3408,6 @@
 		"Green Mox": "While a card bearing this sigil is on the board, it provides a green gem to its owner.",
 		"Guardian": "When an opposing creature is placed opposite to an empty space, a card bearing this sigil will move to that empty space.",
 		"Handy": "When a card bearing this sigil is played, discard your hand then draw a new hand of 4 cards.",
-		"Handy(Goofy)":"When a card bearing this sigil is played, discard your hand then draw a new hand of 4 cards.",
 		"Hefty": "At the end of the owner's turn, a card bearing this sigil will move in the direction inscribed in the sigil. creatures in the way will be pushed in the same direction.",
 		"Hoarder": "When a card bearing this sigil is played, you may search your deck for any card and take it into your hand.",
 		"Leader": "Creatures adjacent to a card bearing this sigil gain 1 Power.",
@@ -3678,29 +3677,11 @@
 		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/syntax_movebeside.png"
 
 	},
-		"Bomb Spewer(Goofy)":{
-		"description": "The first time this card is played, fill all empty spaces with an Explode Bot.",
-		"author":"Mr.Egg",
-		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Bomb%20Spewer(Goofy).gd",
-		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Bomb%20Spewer.png"
-	},
 		"Bone King(Goofy)":{
 		"description": "When this creature perishes, 4 bones are awarded instead of 1.",
 		"author": "Mr.Egg",
 		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Bone%20King(Goofy).gd",
 		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Bone%20King.png"
-	},
-		"Dam Builder(Goofy)":{
-		"description": "The first time this card is played, a Dam is created on each empty adjacent space.",
-		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Dam%20Builder(Goofy).gd",
-		"author":"Mr.Egg",
-		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Dam%20Builder.png"
-	},
-		"Handy(Goofy)":{
-		"description": "When this card is played, discard your hand then draw a new hand of 4 cards.",
-		"author":"Mr.Egg",
-		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Handy(Goofy).gd",
-		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Handy.png"
 	},
 		"Sentry(Goofy)":{
 		"description": "When this creature sees an opposing creature, they are dealt 1 damage.",
