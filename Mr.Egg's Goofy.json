@@ -23,7 +23,7 @@
 		{
 			"name": "Greater Smoke",
 			"sigils": [
-				"Bone King(Goofy)"
+				"Bone King"
 			],
 			"attack": 1,
 			"health": 3,
@@ -588,7 +588,7 @@
 		{
 			"name": "Rat King",
 			"sigils": [
-				"Bone King(Goofy)"
+				"Bone King"
 			],
 			"attack": 2,
 			"health": 1,
@@ -1710,7 +1710,7 @@
 			"energy_cost": 5,
 			"attack": 2,
 			"health": 2,
-			"sigils":["Bone King(Goofy)"],
+			"sigils":["Bone King"],
 			"nosac":true,
 			"description":"Card art by syntaxevasion",
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Art/Portraits/syntax_NukeFamily.png"
@@ -2111,7 +2111,7 @@
 		{
 			"name": "Broken Obol 2",
 			"sigils": [
-				"Bone King(Goofy)"
+				"Bone King"
 			],
 			"attack": 0,
 			"health": 2,
@@ -2153,7 +2153,7 @@
 		{
 			"name": "The Walkers",
 			"sigils": [
-				"Bone King(Goofy)"
+				"Bone King"
 			],
 			"attack": 1,
 			"health": 2,
@@ -2225,7 +2225,7 @@
 			"attack":5,
 			"health":5,
 			"sigils":[
-				"Bone King(Goofy)"
+				"Bone King"
 			],
 			"bone_cost":11,
 			"pixport_url":"https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/main/Art/Portraits/Syntax_Gashadokuro.png",
@@ -3676,12 +3676,6 @@
 		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Clinger.gd",
 		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/syntax_movebeside.png"
 
-	},
-		"Bone King(Goofy)":{
-		"description": "When this creature perishes, 4 bones are awarded instead of 1.",
-		"author": "Mr.Egg",
-		"url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilScript/Bone%20King(Goofy).gd",
-		"icon_url": "https://raw.githubusercontent.com/senor-huevo/Mr.Egg-s-Goofy/refs/heads/main/Sigils/SigilArt/Bone%20King.png"
 	},
 		"Sentry(Goofy)":{
 		"description": "When this creature sees an opposing creature, they are dealt 1 damage.",
